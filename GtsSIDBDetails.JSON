@@ -1,0 +1,10 @@
+{ 
+  "Info": "objectRelaseInfo",	
+  "results": [        
+	{
+        	"tadirObject": "TABL",
+        	"tadirObjName": "/SAPSLL/CTSNUM",
+        	"Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Fields from table /CTSNUM were migrated to /SAPSLL/CTSNR. Read Section "2.1.1.2/INS_CTSNUM_2_CTSNR, 2.1.1.3/INS_CTSNUM_2_CTSNRand 2.1.6 Main Data Tables" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+       	}      
+  ]
+}
