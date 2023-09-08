@@ -37,7 +37,7 @@
         "objectKey":"/SAPSLL/CUHD_GET_OBJECT",
         "softwareComponent":"SLL-LEG",
         "applicationComponent":"SLL-LEG",
-        "state":"deprecated"
+        "state":"deprecated",
         "successorClassification":"oneObject",
         "successors":
         [
