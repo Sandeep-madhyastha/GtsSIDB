@@ -1,0 +1,25 @@
+{
+    "formatVersion":"1",
+    "objectReleaseInfo":
+    [
+       {
+        "tadirObject":"TABL",
+        "tadirObjName":"/SAPSLL/CTSNUM",
+        "objectType":"TABL",
+        "objectKey":"/SAPSLL/CTSNUM",
+        "softwareComponent":"SLL-LEG",
+        "applicationComponent":"SLL",
+        "state":"deprecated",
+        "successorClassification":"oneObject",
+        "successors":
+        [
+         {
+          "tadirObject":"TABL",
+          "tadirObjName":"/SAPSLL/CTSNR",
+          "objectType":"TABL",
+          "objectKey":"/SAPSLL/CTSNR"
+         }
+        ]
+       }             
+    ]
+}
