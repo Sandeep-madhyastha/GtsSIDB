@@ -29,7 +29,25 @@
           "objectKey":"/SAPSLL/CTSNR"
          }
         ]
-       }     
-        
+       },
+       {
+        "tadirObject":"FUGR",
+        "tadirObjName":"/SAPSLL/CUHD_INTACT_OBJ",
+        "objectType":"FUNC",
+        "objectKey":"/SAPSLL/CUHD_GET_OBJECT",
+        "softwareComponent":"SLL-LEG",
+        "applicationComponent":"SLL-LEG",
+        "state":"deprecated"
+        "successorClassification":"oneObject",
+        "successors":
+        [
+         {
+          "tadirObject":"FUGR",
+          "tadirObjName":"/SAPSLL/CUHD_INTACT_OBJ",
+          "objectType":"FUNC",
+          "objectKey":"/SAPSLL/CUHD_GET_OBJECT"
+         }
+        ]
+       }   
     ]
 }
