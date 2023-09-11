@@ -2789,7 +2789,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/CUHD_INTACT_OBJ"
+          "objectKey": "/SAPSLL/CUHD_GET_OBJECT"
         }
       ]
     },
@@ -2807,7 +2807,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/CUHD_INTACT_OBJ"
+          "objectKey": "/SAPSLL/CUHD_GET_OBJECT_PK"
         }
       ]
     },
@@ -2825,7 +2825,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/CUHD_INTACT_OBJ"
+          "objectKey": "/SAPSLL/CUHD_MAINTAIN_OBJECT"
         }
       ]
     },
@@ -2843,7 +2843,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/PRODUCT_INTACT"
+          "objectKey": "/SAPSLL/PRODUCT_GET_OBJECT"
         }
       ]
     },
@@ -2861,7 +2861,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/PRODUCT_INTACT"
+          "objectKey": "/SAPSLL/PRODUCT_GET_OBJECT_SK"
         }
       ]
     },
@@ -2879,7 +2879,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/PRODUCT_INTACT"
+          "objectKey": "/SAPSLL/PRODUCT_MNTN_OBJECT"
         }
       ]
     },
@@ -2897,7 +2897,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/LCLIC_INTACT",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/LCLIC_INTACT"
+          "objectKey": "/SAPSLL/LCLIC_GET_OBJECT"
         }
       ]
     },
@@ -2915,7 +2915,7 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/LCLIC_INTACT",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/LCLIC_INTACT"
+          "objectKey": "/SAPSLL/LCLIC_GET_OBJECT_PK"
         }
       ]
     },
@@ -2933,14 +2933,14 @@
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/LCLIC_INTACT",
           "tobjectType": "FUNC",
-          "objectKey": "/SAPSLL/LCLIC_INTACT"
+          "objectKey": "/SAPSLL/LCLIC_MAINTAIN_OBJECT"
         }
       ]
     },
     {
       "tadirObject": "SXSD",
       "tadirObjName": "/SAPSLL/PRE_PRINT",
-      "objectKey": "#N/A",
+      "objectKey": "",
       "objectType": "",
       "softwareComponent": "SLL-LEG",
       "applicationComponent": "SLL-LEG",
