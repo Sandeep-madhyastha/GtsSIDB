@@ -14,7 +14,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/ALRG01",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/ALRG01"
         }
       ]
@@ -32,7 +32,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/ALRG02",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/ALRG02"
         }
       ]
@@ -50,7 +50,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/ALRG03",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/ALRG03"
         }
       ]
@@ -68,7 +68,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/ALRG11",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/ALRG11"
         }
       ]
@@ -86,7 +86,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/ALRG12",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/ALRG12"
         }
       ]
@@ -104,7 +104,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/ALRG13",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/ALRG13"
         }
       ]
@@ -122,7 +122,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/EMBCLR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/EMBCLR"
         }
       ]
@@ -140,7 +140,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD01N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD01N"
         }
       ]
@@ -158,7 +158,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD02N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD02N"
         }
       ]
@@ -176,7 +176,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD03N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD03N"
         }
       ]
@@ -194,7 +194,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD04N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD04N"
         }
       ]
@@ -212,7 +212,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD05N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD05N"
         }
       ]
@@ -230,7 +230,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD06N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD06N"
         }
       ]
@@ -248,7 +248,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD07N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD07N"
         }
       ]
@@ -266,7 +266,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD08N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD08N"
         }
       ]
@@ -284,7 +284,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD09N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD09N"
         }
       ]
@@ -302,7 +302,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD10N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD10N"
         }
       ]
@@ -320,7 +320,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD11N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD11N"
         }
       ]
@@ -338,7 +338,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD12N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD12N"
         }
       ]
@@ -356,7 +356,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD13N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD13N"
         }
       ]
@@ -374,7 +374,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD14N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD14N"
         }
       ]
@@ -392,7 +392,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD15N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD15N"
         }
       ]
@@ -410,7 +410,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD18N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD18N"
         }
       ]
@@ -428,7 +428,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD19N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD19N"
         }
       ]
@@ -446,7 +446,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD20N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD20N"
         }
       ]
@@ -464,7 +464,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CD21N",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CD21N"
         }
       ]
@@ -482,7 +482,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CDWLMEA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CDWLMEA"
         }
       ]
@@ -500,7 +500,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/EMBCCR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/EMBCCR"
         }
       ]
@@ -518,7 +518,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/EMBCTY",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "SAPSLL/EMBCTY"
         }
       ]
@@ -536,7 +536,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CORCTS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CORCTS"
         }
       ]
@@ -554,7 +554,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CORCTS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CORCTS"
         }
       ]
@@ -572,7 +572,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRATC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRATC"
         }
       ]
@@ -590,7 +590,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSACC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSACC"
         }
       ]
@@ -608,7 +608,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSRTT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSRTT"
         }
       ]
@@ -626,7 +626,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSDCN",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSDCN"
         }
       ]
@@ -644,7 +644,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSDCD ",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSDCD "
         }
       ]
@@ -662,7 +662,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSAFN",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSAFN"
         }
       ]
@@ -680,7 +680,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSDFN",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSDFN"
         }
       ]
@@ -698,7 +698,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSHR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSHR"
         }
       ]
@@ -716,7 +716,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSHRT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSHRT"
         }
       ]
@@ -734,7 +734,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTMC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTMC"
         }
       ]
@@ -752,7 +752,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSACT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSACT"
         }
       ]
@@ -770,7 +770,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTMI",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTMI"
         }
       ]
@@ -788,7 +788,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTMD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTMD"
         }
       ]
@@ -806,7 +806,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTMDC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTMDC"
         }
       ]
@@ -824,7 +824,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTMDP",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTMDP"
         }
       ]
@@ -842,7 +842,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSNR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSNR"
         }
       ]
@@ -860,7 +860,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSNR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSNR"
         }
       ]
@@ -878,7 +878,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSNRT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSNRT"
         }
       ]
@@ -896,7 +896,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSNRT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSNRT"
         }
       ]
@@ -914,7 +914,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSACN",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSACN"
         }
       ]
@@ -932,7 +932,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTNAR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTNAR"
         }
       ]
@@ -950,7 +950,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTAXR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTAXR"
         }
       ]
@@ -968,7 +968,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTXH",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTXH"
         }
       ]
@@ -986,7 +986,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTSTXL",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTSTXL"
         }
       ]
@@ -1004,7 +1004,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CTYGRA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CTYGRA"
         }
       ]
@@ -1022,7 +1022,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUHD"
         }
       ]
@@ -1040,7 +1040,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUHD"
         }
       ]
@@ -1058,7 +1058,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUIT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUIT"
         }
       ]
@@ -1076,7 +1076,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUIT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUIT"
         }
       ]
@@ -1094,7 +1094,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUPED",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUPED"
         }
       ]
@@ -1112,7 +1112,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/DPDATA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/DPDATA"
         }
       ]
@@ -1130,7 +1130,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHD"
         }
       ]
@@ -1148,7 +1148,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDRQ",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDRQ"
         }
       ]
@@ -1166,7 +1166,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDRQL",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDRQL"
         }
       ]
@@ -1184,7 +1184,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDRV",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDRV"
         }
       ]
@@ -1202,7 +1202,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDRVL",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDRVL"
         }
       ]
@@ -1220,7 +1220,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDCL",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDCL"
         }
       ]
@@ -1238,7 +1238,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDTN",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDTN"
         }
       ]
@@ -1256,7 +1256,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDM",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDM"
         }
       ]
@@ -1274,7 +1274,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDSCF",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDSCF"
         }
       ]
@@ -1292,7 +1292,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDS"
         }
       ]
@@ -1310,7 +1310,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LICHDSC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LICHDSC"
         }
       ]
@@ -1328,7 +1328,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/DTRCUS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/DTRCUS"
         }
       ]
@@ -1346,7 +1346,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/DTRPRE",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/DTRPRE"
         }
       ]
@@ -1364,7 +1364,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TEDTM",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TEDTM"
         }
       ]
@@ -1382,7 +1382,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/DTREXC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/DTREXC"
         }
       ]
@@ -1400,7 +1400,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUHD"
         }
       ]
@@ -1418,7 +1418,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/LEGCON",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/LEGCON"
         }
       ]
@@ -1436,7 +1436,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUIT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUIT"
         }
       ]
@@ -1454,7 +1454,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/CUHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/CUHD"
         }
       ]
@@ -1472,7 +1472,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRACA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRACA"
         }
       ]
@@ -1490,7 +1490,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRLRG",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRLRG"
         }
       ]
@@ -1508,7 +1508,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRCLS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRCLS"
         }
       ]
@@ -1526,7 +1526,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRCLS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRCLS"
         }
       ]
@@ -1544,7 +1544,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRFPM",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRFPM"
         }
       ]
@@ -1562,7 +1562,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRFPMRA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRFPMRA"
         }
       ]
@@ -1580,7 +1580,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRFPMRC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRFPMRC"
         }
       ]
@@ -1598,7 +1598,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRPREC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRPREC"
         }
       ]
@@ -1616,7 +1616,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRPRES",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRPRES"
         }
       ]
@@ -1634,7 +1634,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/PRVDREL",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/PRVDREL"
         }
       ]
@@ -1652,7 +1652,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCMP",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCMP"
         }
       ]
@@ -1670,7 +1670,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTDCD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTDCD"
         }
       ]
@@ -1688,7 +1688,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTDCDT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTDCDT"
         }
       ]
@@ -1706,7 +1706,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOGVA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOGVA"
         }
       ]
@@ -1724,7 +1724,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOGVS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOGVS"
         }
       ]
@@ -1742,7 +1742,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOGVST",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOGVST"
         }
       ]
@@ -1760,7 +1760,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPCG",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPCG"
         }
       ]
@@ -1778,7 +1778,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPCGA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPCGA"
         }
       ]
@@ -1796,7 +1796,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPCGT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPCGT"
         }
       ]
@@ -1814,7 +1814,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPGC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPGC"
         }
       ]
@@ -1832,7 +1832,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPGCT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPGCT"
         }
       ]
@@ -1850,7 +1850,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPRC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPRC"
         }
       ]
@@ -1868,7 +1868,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTPRCT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTPRCT"
         }
       ]
@@ -1886,7 +1886,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTIN",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTIN"
         }
       ]
@@ -1904,7 +1904,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTNA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTNA"
         }
       ]
@@ -1922,7 +1922,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTNAT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTNAT"
         }
       ]
@@ -1940,7 +1940,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTNAV",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTNAV"
         }
       ]
@@ -1958,7 +1958,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTNAVT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTNAVT"
         }
       ]
@@ -1976,25 +1976,25 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCT"
         },
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCA"
         },
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCONS",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCONS"
         },
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TNSETD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TNSETD"
         }
       ]
@@ -2012,7 +2012,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTA"
         }
       ]
@@ -2030,7 +2030,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTAT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTAT"
         }
       ]
@@ -2048,7 +2048,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTB",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTB"
         }
       ]
@@ -2066,7 +2066,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTK",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTK"
         }
       ]
@@ -2084,7 +2084,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTKT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTKT"
         }
       ]
@@ -2102,19 +2102,19 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTT"
         },
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCONST",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCONST"
         },
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TNSETDT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TNSETDT"
         }
       ]
@@ -2132,7 +2132,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCOCTZ",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCOCTZ"
         }
       ]
@@ -2150,13 +2150,13 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTSMC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTSMC"
         },
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTSMCA",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTSMCA"
         }
       ]
@@ -2174,7 +2174,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TCTSMCT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TCTSMCT"
         }
       ]
@@ -2192,7 +2192,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TDPCMB",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TDPCMB"
         }
       ]
@@ -2210,7 +2210,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TDTRCAC",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TDTRCAC"
         }
       ]
@@ -2228,7 +2228,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TDTRCACT",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TDTRCACT"
         }
       ]
@@ -2246,7 +2246,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TSCHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TSCHD"
         }
       ]
@@ -2264,7 +2264,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TSHD",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TSHD"
         }
       ]
@@ -2282,7 +2282,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/TSPED",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/TSPED"
         }
       ]
@@ -2300,7 +2300,7 @@
         {
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/WLTAXR",
-          "tobjectType": "TABL",
+          "objectType": "TABL",
           "objectKey": "/SAPSLL/WLTAXR"
         }
       ]
@@ -2318,7 +2318,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/ECRG/RP",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/ECRG/RP_CHECK_ITEM"
         }
       ]
@@ -2336,7 +2336,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CUS_EXPORT_WITH_TIB",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_EXP_WITH_TRS_N"
         }
       ]
@@ -2354,7 +2354,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CU_SPOT_ES_CHK",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_EXPDECL_REQ_CHK_N"
         }
       ]
@@ -2372,7 +2372,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CU_SPOT_SE_EXPRTDECL",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/CU_SE_EXPDECL_REQ_N"
         }
       ]
@@ -2390,7 +2390,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CU_SPOT_SE_IMPRTDECL",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/CU_SE_IMPDECL_NOTIF_N"
         }
       ]
@@ -2408,7 +2408,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ECC_INBOUND",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_ECC_INBOUND_N"
         }
       ]
@@ -2426,7 +2426,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ECMC_OUT",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_ECMC_ELANK2_N"
         }
       ]
@@ -2444,7 +2444,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_BRKR_COMM",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_BRKR_MNTRG_IMP_N"
         }
       ]
@@ -2462,7 +2462,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_CDOC_COPY",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_CDOC_COPY_N"
         }
       ]
@@ -2480,7 +2480,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_CDOC_EX_UI_CON_N"
         }
       ]
@@ -2498,7 +2498,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_CDOC_SCP",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_CDOC_SCP_OP_N"
         }
       ]
@@ -2516,7 +2516,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_CUHD_BOM",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_CDOC_BOM_N"
         }
       ]
@@ -2534,7 +2534,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_EXTIF_CUS_CDOC",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_IFMAP_CEVE_N"
         }
       ]
@@ -2552,7 +2552,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_EXT_PRD",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_EXT_PRD_N"
         }
       ]
@@ -2570,7 +2570,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_TSHD",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_TSHD_ECC_N"
         }
       ]
@@ -2598,7 +2598,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/GRANT_DETERMINE",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/GRANT_DETERMINE"
         }
       ]
@@ -2616,7 +2616,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/ITAR_TRACK_ES"
         }
       ]
@@ -2634,7 +2634,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/ECRG/RP",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/ECRG/RP_FILE_TRANSFER"
         }
       ]
@@ -2652,7 +2652,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CU_SPOT_ES_CHK",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_IMPDECL_REQ_CHK_N"
         }
       ]
@@ -2670,7 +2670,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CU_SPOT_SE_EXPRTDECL",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/CU_SE_EXPDECL_NOTIF_N"
         }
       ]
@@ -2688,7 +2688,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/CU_SPOT_SE_IMPRTDECL",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/CU_SE_IMPDECL_REQ_N"
         }
       ]
@@ -2706,7 +2706,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_BRKR_COMM",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_BRKR_MNTRG_EXP_N"
         }
       ]
@@ -2724,7 +2724,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_CDOC_EXT_UI_N"
         }
       ]
@@ -2742,7 +2742,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_EXT_PRD",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_EXT_UI_PRD_N"
         }
       ]
@@ -2770,7 +2770,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/ITAR_TRACK_ES_N"
         }
       ]
@@ -2788,7 +2788,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/CUHD_GET_OBJECT"
         }
       ]
@@ -2806,7 +2806,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/CUHD_GET_OBJECT_PK"
         }
       ]
@@ -2824,7 +2824,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/CUHD_MAINTAIN_OBJECT"
         }
       ]
@@ -2842,7 +2842,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/PRODUCT_GET_OBJECT"
         }
       ]
@@ -2860,7 +2860,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/PRODUCT_GET_OBJECT_SK"
         }
       ]
@@ -2878,7 +2878,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/PRODUCT_MNTN_OBJECT"
         }
       ]
@@ -2896,7 +2896,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/LCLIC_INTACT",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/LCLIC_GET_OBJECT"
         }
       ]
@@ -2914,7 +2914,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/LCLIC_INTACT",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/LCLIC_GET_OBJECT_PK"
         }
       ]
@@ -2932,7 +2932,7 @@
         {
           "tadirObject": "FUGR",
           "tadirObjName": "/SAPSLL/LCLIC_INTACT",
-          "tobjectType": "FUNC",
+          "objectType": "FUNC",
           "objectKey": "/SAPSLL/LCLIC_MAINTAIN_OBJECT"
         }
       ]
@@ -2960,7 +2960,7 @@
         {
           "tadirObject": "ENHS",
           "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
-          "tobjectType": "ENHO",
+          "objectType": "ENHO",
           "objectKey": "/SAPSLL/BADI_CDOC_EXT_N"
         }
       ]
