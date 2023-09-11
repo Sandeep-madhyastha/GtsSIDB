@@ -1,10 +1,1652 @@
-{ "Info": "objectRelaseInfo",
-  "objectChangeDetails": 
-    [
-      {
-        "tadirObject": "TABL",
-        "tadirObjName": "/SAPSLL/CTSNUM",
-        "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Fields from table /CTSNUM were migrated to /SAPSLL/CTSNR. Read Section 2.1.1.2/INS_CTSNUM_2_CTSNR, 2.1.1.3/INS_CTSNUM_2_CTSNRand 2.1.6 Main Data Tables of Document https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
-      }
-    ]
+{
+  "Info": "objectRelaseInfo",
+  "objectChangeDetails": [
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUHDSTA",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables, 2.1.1.2 / UPD_2_CUHD and 2.1.1.3 / UPD_2_CUHD\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUHDDAT",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables, 2.1.1.2 / UPD_2_CUHD and 2.1.1.3 / UPD_2_CUHD\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGTPR",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables and 2.1.1.3 / UPD_2_CUHD\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGCOM",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables, 2.1.1.3/UPD_2_CUIT and 2.1.1.3 / UPD_2_CUHD\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGCUS",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables and 2.1.1.3/UPD_2_CUIT\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUITSTA",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables, 2.1.1.2/UPD_2_CUIT\" and \"2.1.1.3/UPD_2_CUIT\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUITDAT",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables, 2.1.1.2/UPD_2_CUIT and 2.1.1.3/UPD_2_CUIT\"  of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CORCTSC",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables\" and \"2.1.1.2/INS_CORCTSC_2_CORCTS and 2.1.1.3/INS_CORCTSC_2_CORCTS\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf . The classification UUID was replaced by the actual classification code /SAPSLL/CORCTS~CCNGN."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRCTS",
+      "Decsription": "\"Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tables can no longer be used. The data content is migrated to new table. • Fields from table /SAPSLL/PRCTS were migrated to /SAPSLL/PRCLS"
+    },
+    {
+      "tadirObject": "• The Valid From and Valid To time stamps (/SAPSLLPRCTS~DATAB and /SAPSLL/PRCTS~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (SAPSLL/PRCLS~DATAB and /SAPSLL/PRCLS~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to commodity code according to field /SAPSLL/PRCTS~GUID_CTS is dropped and replaced by the direct reference to the commodity code (/SAPSLL/PRCLS-CCNGN). Read Section \"\"2.1.1.2/INS_PRCTS_2_PRCLS, 2.1.13/INS_PRCTS_2_PRCLS and 2.1.6 Main Data Tables\"\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRCTSC",
+      "Decsription": "\"Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. • The country dependency of a classification in a numbering scheme is obsolete."
+    },
+    {
+      "tadirObject": "• Fields from table /SAPSLL/PRCTSC were migrated to /SAPSLL/PRCLS"
+    },
+    {
+      "tadirObject": "• The Valid From and Valid To time stamps (/SAPSLLPRCTS~DATAB and /SAPSLL/PRCTS~DATBI) were transferred to data fields (SAPSLL/PRCLS~DATAB and /SAPSLL/PRCLS~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to commodity code according to field /SAPSLL/PRCTS~GUID_CTS is dropped and replaced by the direct reference to the commodity code (/SAPSLL/PRCLS-CCNGN). Read Section \"\"2.1.1.3/INS_PRCTSC_2_PRCLS and 2.1.6 Main Data Tables\"\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUM",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Fields from table /CTSNUM were migrated to /SAPSLL/CTSNR. Read Section \"2.1.1.2/INS_CTSNUM_2_CTSNR, 2.1.1.3/INS_CTSNUM_2_CTSNRand 2.1.6 Main Data Tables\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUMC",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.1.3/INS_CTSNUMC_2_CTSNR and 2.1.6 Main Data Tables\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "INTTAB",
+      "tadirObjName": "/SAPSLL/CUHD_OBJ_S",
+      "Decsription": "\"BAdI methods that reference the following structure gets affected. "
+    },
+    {
+      "tadirObject": "Read Section \"\"2.1.2\"\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "INTTAB",
+      "tadirObjName": "/SAPSLL/LCLIC_OBJ_S",
+      "Decsription": "\"BAdI methods that reference the following structure gets affected."
+    },
+    {
+      "tadirObject": "Read Section \"\"2.1.2\"\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "INTTAB",
+      "tadirObjName": "/SAPSLL/PR_OBJ_S",
+      "Decsription": "\"BAdI methods that reference the following structure gets affected."
+    },
+    {
+      "tadirObject": "Read Section \"\"2.1.2\"\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_EXT_PRD",
+      "Decsription": "Data Backup from External Tables in Customer-Defined Tables"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CDOC_EX_UI_CON",
+      "Decsription": "Interface Control when Linking External Application to Customs Document"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CUHD_BOM",
+      "Decsription": "Explosion of Document-Based BOMs"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CUHD_RELEASE",
+      "Decsription": "Release Blocked Documents"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_ECMC_ELANK2",
+      "Decsription": "Mapping for Calling Webservice ELANK2"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/LCLIC_PROP",
+      "Decsription": "Default when Entering Licenses"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_BRKR_MNTRG_EXPRT",
+      "Decsription": "\"Monitor Communication with a Customs Broker During Export."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.3\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_BRKR_MNTRG_IMPRT",
+      "Decsription": "\"Monitor Communication with a Customs Broker During Export."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.3\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CDOC_COPY",
+      "Decsription": "Copy External Data Between Customs Declaration and Customs Shipment"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CDOC_EXT",
+      "Decsription": "Data Backup from External Applications in Customer-Defined Tables"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CDOC_EXT_UI",
+      "Decsription": "Interface Control when Linking External Applications to Documents"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CDOC_SCP_OP",
+      "Decsription": "Transfer of BOM Information from External System for Outward Processing"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_CUHD_BOM",
+      "Decsription": "Explosion of Document-Based BOMs"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_IFMAP_CUS_CEVE",
+      "Decsription": "Determine Additional Data for Customs Event for External System"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_TSHD_ECC",
+      "Decsription": "BAdI for Tax Statement Area Electronic Messages"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CUS_EXPORT_WITH_TIB",
+      "Decsription": "Opening of Transit Procedure in Export Processing"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/EXPRT_DECL_REQ_CHK",
+      "Decsription": "Integration with Customs Brokers: Check Incompleteness for Requesting Customs Export Declarations"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CUHD_PROP",
+      "Decsription": "Default Data in Customs Management Documents"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CUS_ECC",
+      "Decsription": "EDI Outbound Processing and Incompleteness Checks"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/DUTY_CALC",
+      "Decsription": "Cust. Duty Calc.: Completeness and Exclusion Cond"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/DUTY_CALC_EV",
+      "Decsription": "[Obsolete] Cust. Duty Calc.: Completeness and Exclusion Cond"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/ECC_INBOUND",
+      "Decsription": "EDI Inbound Processing"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/PRN_DET",
+      "Decsription": "Message Determination in Communication Process"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/PRN_MSG",
+      "Decsription": "Print Form"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/SAFETY_DET",
+      "Decsription": "Determination of Comprehensive Guarantee"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/IMPRT_DECL_REQ_CHK",
+      "Decsription": "Integration with Customs Brokers: Check Incompleteness for Requesting Customs Import Declarations"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CU_SE_EXPRTDECL_REQ",
+      "Decsription": "Outbound Interface ExportDeclarationRequest_Out"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CU_SE_IMPRTDECL_REQ",
+      "Decsription": "Outbound Interface ImportDeclarationRequest_Out"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CU_SE_EXPRTDECL_NOTIF",
+      "Decsription": "Inbound Interface ExportDeclarationNotification_In"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CU_SE_IMPRTDECL_NOTIF",
+      "Decsription": "Inbound Interface ,mportDeclarationNotification_In"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_EXT_PRD",
+      "Decsription": "Data Backup from External Applications in Customer-Defined Tables"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_EXT_UI_PRD",
+      "Decsription": "Interface Control when Connecting External Applications with Product"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_VD_EXTIF_MAP",
+      "Decsription": "BAdI: Mapping of External Data to Structure of Worklist. Replacement not available yet"
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_VD_EXT_CREATE",
+      "Decsription": "BAdI: Integration of External Data with Structure of Supplier Declaration. Replacement not available yet"
+    },
+    {
+      "tadirObject": "ENHO(CLASSIC_BADI)",
+      "tadirObjName": "/SAPSLL/PRE_PRINT",
+      "Decsription": "GTS: BAdI: Print. Replacement not available yet"
+    },
+    {
+      "tadirObject": "ENHO(CLASSIC_BADI)",
+      "tadirObjName": "/SAPSLL/ECR_EXTRACT",
+      "Decsription": "Intrastat Extractor for SAP Electronic Compliance Reporting"
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/CUHD_GET_OBJECT",
+      "Decsription": "\"Reference type /SAPSLL/CDOC_OBJ_S replaces /SAPSLL/CUHD_OBJ_S in the interface parameters of the"
+    },
+    {
+      "tadirObject": "signature of this FM\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/CUHD_GET_OBJECT_PK",
+      "Decsription": "\"Reference type /SAPSLL/CDOC_OBJ_S replaces /SAPSLL/CUHD_OBJ_S in the interface parameters of the"
+    },
+    {
+      "tadirObject": "signature of this FM\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/CUHD_MAINTAIN_OBJECT",
+      "Decsription": "\"Reference type /SAPSLL/CDOC_OBJ_S replaces /SAPSLL/CUHD_OBJ_S in the interface parameters of the"
+    },
+    {
+      "tadirObject": "signature of this FM\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/PRODUCT_GET_OBJECT",
+      "Decsription": "\"Reference type /SAPSLL/CPRD_OBJ_S replaces /SAPSLL/PR_OBJ_S in the interface parameters of the"
+    },
+    {
+      "tadirObject": "signature of this FM\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/PRODUCT_GET_OBJECT_SK",
+      "Decsription": "\"Reference type /SAPSLL/CPRD_OBJ_S replaces /SAPSLL/PR_OBJ_S in the interface parameters of the"
+    },
+    {
+      "tadirObject": "signature of this FM\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/PRODUCT_MNTN_OBJECT",
+      "Decsription": "\"Reference type /SAPSLL/CPRD_OBJ_S replaces /SAPSLL/PR_OBJ_S in the interface parameters of the"
+    },
+    {
+      "tadirObject": "signature of this FM\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOGVS",
+      "Decsription": "Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVS. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOGVST ",
+      "Decsription": "Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVST. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOGVA",
+      "Decsription": "Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVA, the client independency was removed and the Client field was added to table /SAPSLL/TCOGVA. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CORCTS",
+      "Decsription": "\"• The actual classification code replaces the classification UUID."
+    },
+    {
+      "tadirObject": "• Field /SAPSLL/CORCTS~GUID_CTSNUM was retired and replaced by /SAPSLL/CORCTS~CCNGN."
+    },
+    {
+      "tadirObject": "• In the future, field /SAPSLL/CORCTS~CLSTY describes the classification type, for example, [A] = tariff number, [B] = commodity code, [C] = export control classification number, and so on. Refer section \"\"2.1.1.2/UPD_2_CORCTS and 2.1.1.3/UPD_2_CORCTS\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGCON",
+      "Decsription": "\"The classification UUIDs of fields GUID_CTS_VDP and GUID_CTS_QDP were retired and were"
+    },
+    {
+      "tadirObject": "replaced by the actual classification codes in table fields /SAPSLL/LEGCON~CCNGN_VDP and /SAPSLL/ LEGCON~CCNGN_QDP. Refer section \"\"2.1.1.2 / UPD_2_LEGCON\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LICHD",
+      "Decsription": "\"Fields from table /SAPSLL/LCLIC were migrated to /SAPSLL/LICHD."
+    },
+    {
+      "tadirObject": "The Valid From and Valid To time stamps (/SAPSLL/LICHD~DATAB and /SAPSLL/LICHD~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/LICHD~VALFR and /SAPSLL/LICHD~VALTO). Refer section \"\"2.1.1.2/UPD_2_LICHD and 2.1.1.3/UPD_2_LICHD\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICC",
+      "Decsription": "\"• Fields from table /SAPSLL/LCLICC were migrated to /SAPSLL/LICHDCL"
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class was dropped (/SAPSLL/LCLICC~GUID_CTS) and was replaced by the actual classification code of the control class (/SAPSLL/LICHDCL~CONCL) in the context of the corresponding numbering schema (/SAPSLL/LICHDCL~STCTS). Refer section \"\"2.1.1.2 / INS_LCLICC_2_LICHDCL and 2.1.6\"\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAV ",
+      "Decsription": "The UUID reference to the classification code was dropped (/SAPSLL/LCLICAV~GUID_CTS) and was replaced by the classification code (/SAPSLL/LICHDRV~CCNGN). Refer section \"2.1.1.2 / INS_LCLICAV_2_LICHDRV\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAVL",
+      "Decsription": "No structural changes between target table and source table. Simply adjustment of the names of the referenced table /SAPSLL/LICHDRVL, for example, field /SAPSLL/LCLICRVL~GUID_LCLICRV. Refer section \"2.1.1.2 / INS_LCLICAVL_2_LICHDRVL\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAQ",
+      "Decsription": "The UUID reference to the classification code was dropped (/SAPSLL/LCLICAQ~GUID_CTS) and was replaced by the classification code (/SAPSLL/LICHDRQ~CCNGN). Refer section \"2.1.1.2 / INS_LCLICAQ_2_LICHDRQ\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAQL ",
+      "Decsription": "No structural changes between target table and source table. Simply adjustment of the names of the referenced table /SAPSLL/LCLICRQ, for example, field /SAPSLL/LICHDRQL~GUID_LCLICRQ.. Refer section \"2.1.1.2 / INS_LCLICAQL_2_LICHDRQL\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOCMP",
+      "Decsription": "SPL screening via SAP TREX was retired (/SAPSLL/TCOCMP~CMPTR = [ ] ). Refer section \"2.1.1.2 / UPD_2_TCOCMP\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD01",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD01~DATAB and /SAPSLL/CD01~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD01N~DATAB and /SAPSLL/CD01N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD01~GUID_CTSCD) is obsolete and was"
+    },
+    {
+      "tadirObject": "dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD01_2_CD01N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD02",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD02~DATAB and /SAPSLL/CD02~DATBI) were transferred to data fields (/SAPSLL/CD02N~DATAB and /SAPSLL/CD02N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class was dropped (/SAPSLL/CD02~GUID_CTS) and was replaced by the actual classification code of the control class (/SAPSLL/CD02N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD02N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD02~GUID_CTSCD) was dropped and was replaced by the classification code of the classification condition (/SAPSLL/CD02N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD02N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD02_2_CD02N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD03",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD03~DATAB und /SAPSLL/CD03~DATBI) were transferred to data fields (/SAPSLL/CD03N~DATAB and /SAPSLL/CD03N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD03~GUID_CTSCD) is obsolete and was dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD03_2_CD03N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD04",
+      "Decsription": "\""
+    },
+    {
+      "tadirObject": "• The Valid From and Valid To time stamps (/SAPSLL/CD04~DATAB und /SAPSLL/CD04~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD04N~DATAB and /SAPSLL/CD04N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class was dropped (/SAPSLL/CD04~GUID_CTS) and was replaced by the reference number of the control class (/SAPSLL/CD04N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD04N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD04~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD04N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD04N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD04_2_CD04N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD05",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD05~DATAB and /SAPSLL/CD05~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD05N~DATAB and /SAPSLL/CD05N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD05~GUID_CTSCD) is obsolete and was"
+    },
+    {
+      "tadirObject": "dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD05_2_CD05N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD06",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD06~DATAB und /SAPSLL/CD06~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD06N~DATABund /SAPSLL/CD06N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD06~GUID_CTSCD) is obsolete and was"
+    },
+    {
+      "tadirObject": "dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD06_2_CD06N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD07",
+      "Decsription": "\""
+    },
+    {
+      "tadirObject": "• The Valid From and Valid To time stamps (/SAPSLL/CD07~DATAB and /SAPSLL/CD07~DATBI) were transferred to data fields (/SAPSLL/CD07N~DATAB and /SAPSLL/CD07N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD07~GUID_CTSCD) is obsolete and was dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD07_2_CD07N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD08",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD08~DATAB and /SAPSLL/CD08~DATBI) were transferred to data fields (/SAPSLL/CD08N~DATAB and /SAPSLL/CD08N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/SAPSLL/CD08~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD08N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD08N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD08~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD08N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD08N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD08_2_CD08N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD09",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD09~DATAB and /SAPSLL/CD09~DATBI) were transferred to data fields (/SAPSLL/CD09N~DATAB and /SAPSLL/CD09N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD09~GUID_CTSCD) is obsolete and was dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD09_2_CD09N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD10",
+      "Decsription": "\"The Valid From and Valid To time stamps (/SAPSLL/CD10~DATAB and /SAPSLL/CD10~DATBI) were transferred to data fields (/SAPSLL/CD10N~DATAB and /SAPSLL/CD10N~DATBI)."
+    },
+    {
+      "tadirObject": "The UUID reference to the classification condition (/SAPSLL/CD10~GUID_CTSCD is obsolete and was dropped without replacement.  Refer section \"\"2.1.1.2 / INS_CD10_2_CD10N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD11",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD11~DATAB and /SAPSLL/CD11~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD11N~DATAB and /SAPSLL/CD11N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD11~GUID_CTSCD is obsolete and was"
+    },
+    {
+      "tadirObject": "dropped without replacement. "
+    },
+    {
+      "tadirObject": "The UUID reference to the classification condition (/SAPSLL/CD10~GUID_CTSCD is obsolete and was dropped without replacement.  Refer section \"\"2.1.1.2 / INS_CD11_2_CD11N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD12",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD12~DATAB and /SAPSLL/CD12~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD12N~DATAB and /SAPSLL/CD12N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD12~GUID_CTSCD is obsolete and was"
+    },
+    {
+      "tadirObject": "dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD12_2_CD12N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD13",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD13~DATAB and /SAPSLL/CD13~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD13N~DATABand /SAPSLL/CD13N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/CD13~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD13N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD13N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD13~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD13N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD13N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD13_2_CD13N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD14",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD14~DATAB and /SAPSLL/CD14~DATBI) were transferred to data fields (/SAPSLL/CD14N~DATAB and /SAPSLL/CD14N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/CD14~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD14N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD14N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD14~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD14N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD14N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD14_2_CD14N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD15",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD15~DATAB and /SAPSLL/CD15~DATBI) were transferred to data fields (/SAPSLL/CD15N~DATAB and /SAPSLL/CD15N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/CD15~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD15N~CONCL in the context of the corresponding numbering schema (/SAPSLL/CD15N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD15~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD15N~CTSCD in the context of the corresponding numbering schema (/SAPSLL/CD15N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD15_2_CD15N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD18",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD18~DATAB and /SAPSLL/CD18~DATBI) were transferred to data fields (/SAPSLL/CD18N~DATAB and /SAPSLL/CD18N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/CD18~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD18N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD18N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD18~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD18N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD18N~STCTS_CTSCD).  Refer section \"\"2.1.1.2 / INS_CD18_2_CD18N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD19",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD19~DATAB and /SAPSLL/CD19~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD19N~DATAB and /SAPSLL/CD19N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/CD19~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD19N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/CD19N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD19~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD19N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD19N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD19_2_CD19N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD20",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD20~DATAB and /SAPSLL/CD20~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD20N~DATAB and /SAPSLL/CD20N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the control class (/SAPSLL/CD20~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD20N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/C20N~STCTS)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD20~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD20N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD20N~STCTS_CTSCD). Refer section \"\"2.1.1.2 / INS_CD20_2_CD20N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD21",
+      "Decsription": "\"• The Valid From and Valid To time stamps (/SAPSLL/CD21~DATAB and /SAPSLL/CD21~DATBI) were"
+    },
+    {
+      "tadirObject": "transferred to data fields (/SAPSLL/CD21N~DATAB and /SAPSLL/CD21N~DATBI)."
+    },
+    {
+      "tadirObject": "• The UUID reference to the classification condition (/SAPSLL/CD21~GUID_CTSCD) is obsolete and was"
+    },
+    {
+      "tadirObject": "dropped without replacement. Refer section \"\"2.1.1.2 / INS_CD21_2_CD21N\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CNTRY",
+      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/CNTRY~DATAB and /SAPSLL/CNTRY~DATBI) were transferred to data fields (/SAPSLL/EMBCTY~DATAB and /SAPSLL/EMBCTY~DATBI). Refer section \"2.1.1.2 / INS_CNTRY_2_EMBCTY\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CCCTRY",
+      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/CCCTRY~DATAB and /SAPSLL/CCCTRY~DATBI) were transferred to data fields (/SAPSLL/EMBCLR~DATAB and /SAPSLL/EMBCLR~DATBI).  Refer section \"2.1.1.2 / INS_CCCTRY_2_EMBCLR\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CEEMB",
+      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/CEEMB~DATAB und /SAPSLL/CEEMB~DATBI) were transferred to data fields (/SAPSLL/EMBCCR~DATAB und /SAPSLL/EMBCCR~DATBI).  Refer section \"2.1.1.2 / INS_CEEMB_2_EMBCCR\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRCON",
+      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/PRCON~DATAB and /SAPSLL/PRCON~DATBI) were transferred to data fields (/SAPSLL/ PRLRG~DATAB and /SAPSLL/PRLRG~DATBI). Refer section \"2.1.1.2 / INS_PRCON_2_PRLRG\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CORCTZ",
+      "Decsription": "\"• Fields from table /SAPSLL/CORCTZ were migrated to /SAPSLL/PRATC"
+    },
+    {
+      "tadirObject": "• The classification UUID in /SAPSLL/CORCTZ was replaced by its reference number /SAPSLL/ PRATC~CCNGN"
+    },
+    {
+      "tadirObject": "• The UUID reference to the tariff measure according to field /SAPSLL/SAPSLL/CORCTZ~GUID_CTSMAE is dropped."
+    },
+    {
+      "tadirObject": "• The reference to the product is given by field /SAPSLL/PRATC~GUID_PR. Fields GUID_MOBJ and MOBJT are not in place.  Refer section \"\"2.1.1.2/INS_CORCTZ_2_PRATC, 2.1.1.3/INS_CORCTZ_2_LEGATC and 2.1.1.3/INS_CORCTZ_2_PRATC\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNZR",
+      "Decsription": "Fields from table /SAPSLL/CTSNZR were migrated to /SAPSLL/CTSACN. Refer section \"2.1.1.2/INS_CTSNZR_2_CTSACN and 2.1.1.3/INS_CTSNZR_2_CTSACN\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUMT",
+      "Decsription": "Fields from table /SAPSLL/CTSNUMT were migrated to /SAPSLL/CTSNRT. Refer section \"2.1.1.2/INS_CTSNUMT_2_CTSNRT and 2.1.1.3/INS_CTSNUMT_2_CTSNRT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSGEN",
+      "Decsription": "Fields from table /CTSGEN were migrated to /SAPSLL/CTSHR. Refer section \"2.1.1.2/INS_CTSGEN_2_CTSHR and 2.1.1.3/INS_CTSGEN_2_CTSHR\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSGENT",
+      "Decsription": "Fields from table /SAPSLL/CTSGENT were migrated to /SAPSLL/CTSHRT. Refer section \"2.1.1.2/INS_CTSGENT_2_CTSHRT and 2.1.1.3/INS_CTSGENT_2_CTSHRT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSB1",
+      "Decsription": "\"• Fields from table /SAPSLL/LC_CUSB1 were migrated to /SAPSLL/DTRCUS"
+    },
+    {
+      "tadirObject": "• The legal regulation was dropped"
+    },
+    {
+      "tadirObject": "• The reference to the numbering scheme (/SAPSLL/LC_CUSB1~STCTS) was replaced with a reference to"
+    },
+    {
+      "tadirObject": "the numbering scheme content (/SAPSLL/DTRCUS~STCCS)"
+    },
+    {
+      "tadirObject": "• The classification UUID was kept and additionally the reference number of the classification was added. Refer section \"\"2.1.1.3/INS_LC_CUSB1_2_DTRCUS\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSB2",
+      "Decsription": "\"• Fields from table /SAPSLL/LC_CUSB2 were migrated to /SAPSLL/DTRPRE"
+    },
+    {
+      "tadirObject": "• The legal regulation was dropped"
+    },
+    {
+      "tadirObject": "• The reference to the numbering scheme (/SAPSLL/LC_CUSB2~STCTS) was replaced with a reference to the numbering scheme content (/SAPSLL/DTRPRE~STCCS)"
+    },
+    {
+      "tadirObject": "• The classification UUID was kept and additionally the reference number of the classification was added. Refer section \"\"2.1.1.3/INS_LC_CUSB2_2_DTRPRE\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TDPCMB",
+      "Decsription": "\"• The data proposal fields G_STAWN (UUID of the commodity code) and G_IMPCN_UUID (UUID of the tariff number) are obsolete and are replaced by the field combinations I_STAWN and I_IMPCN, which represent the classification numbers directly."
+    },
+    {
+      "tadirObject": "• These changes are reflected in the data proposal schemes where the fields named above where replaced by the new ones. Refer section \"\"2.1.1.3/UPD_2_DPDATA\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/DPDATA",
+      "Decsription": "\"• The data proposal fields G_STAWN (UUID of the commodity code) and G_IMPCN_UUID (UUID of the tariff number) are obsolete and are replaced by the field combinations I_STAWN and I_IMPCN, which represent the classification numbers directly."
+    },
+    {
+      "tadirObject": "• These changes are reflected in the data proposal schemes where the fields named above where replaced by the new ones. Refer section \"\"2.1.1.3/UPD_2_DPDATA\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUPED",
+      "Decsription": "The conversion exit on field /SAPSLL/CUPED~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section \"2.1.1.3/UPD_2_CUPED\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TSHD",
+      "Decsription": "The conversion exit on field /SAPSLL/TSHD~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section \"2.1.1.3/UPD_2_TSHD\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TSCHD",
+      "Decsription": "The conversion exit on field /SAPSLL/TSCHD~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section \"2.1.1.3/UPD_2_TSCHD\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TSPED",
+      "Decsription": "The conversion exit on field /SAPSLL/TSPED~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number.  Refer section \"2.1.1.3/UPD_2_TSPED\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICW",
+      "Decsription": "\"• Fields from table /SAPSLL/LCLICW were migrated to /SAPSLL/LICHDSC"
+    },
+    {
+      "tadirObject": "• The UUID reference to commodity code according to field /SAPSLL/LCLICW~GUID_CTS is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDSC-CCNGN). Refer section \"\"2.1.1.3/INS_LCLICW_2_LICHDSC and 2.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICI ",
+      "Decsription": "\"• Fields from table /SAPSLL/LCLICI were migrated to /SAPSLL/LICHDTN"
+    },
+    {
+      "tadirObject": "• The UUID reference to commodity code according to field /SAPSLL/LCLICWN~GUID_CTS is dropped and"
+    },
+    {
+      "tadirObject": "replaced by the direct reference to the commodity code (/SAPSLL/LICHDTN-CCNGN). Refer section \"\"2.1.1.3/INS_LCLICI_2_LICHDTN\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICN ",
+      "Decsription": "\"• Fields from table /SAPSLL/LCLICN were migrated to /SAPSLL/LICHDCP"
+    },
+    {
+      "tadirObject": "• The UUID reference to commodity code according to field /SAPSLL/LCLICN~GUID_CTS is dropped and"
+    },
+    {
+      "tadirObject": "replaced by the direct reference to the commodity code (/SAPSLL/LICHDCP-CCNGN). Refer section \"\"2.1.1.3/INS_LCLICN_2_LICHDCP\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICN",
+      "Decsription": "\"• Fields from table /SAPSLL/LCLICWF were migrated to /SAPSLL/LICHDSCF"
+    },
+    {
+      "tadirObject": "• The UUID reference to commodity code according to field /SAPSLL/LCLICNWF~GUID_CTS is dropped and"
+    },
+    {
+      "tadirObject": "replaced by the direct reference to the commodity code (/SAPSLL/LICHDSCF-CCNGN). Refer section \"\"2.1.1.3/INS_LCLICWF_2_LICHDSCF\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LICHDPT",
+      "Decsription": "The UUID reference to commodity code according to field /SAPSLL/LCLICPT~GUID_CTSNUM is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDPT-CCNGN). Refer section \"2.1.1.3/UPD_2_LCLICPT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LICHDPTM ",
+      "Decsription": "The UUID reference to commodity code according to field /SAPSLL/LCLICPTM~GUID_CTSNUM is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDPTM-CCNGN).  Refer section \"2.1.1.3/UPD_2_LICHDPTM\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRACM",
+      "Decsription": "Fields from table /SAPSLL/PRACM were migrated to /SAPSLL/PRACA. Refer section \"2.1.1.3/INS_PRACM_2_PRACA\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNZR",
+      "Decsription": "Fields from table /SAPSLL/CTSNTR were migrated to /SAPSLL/CTSRNT. Refer section \"2.1.1.3/INS_CTSNTR_2_CTSRNT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSDMA",
+      "Decsription": "Fields from table /SAPSLL/CTSDMA were migrated to /SAPSLL/CTSDCN. Refer section \"2.1.1.3/INS_CTSDMA_2_CTSDCN\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMAE",
+      "Decsription": "Fields from table /SAPSLL/CTSMAE were migrated to /SAPSLL/CTSACT. Refer section \"2.1.1.3/INS_CTSMAE_2_CTSACT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUMCT",
+      "Decsription": "Fields from table /SAPSLL/CTSNUMCT were migrated to /SAPSLL/CTSNRT. Refer section \"2.1.1.3/INS_CTSNUMCT_2_CTSNRT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSATR",
+      "Decsription": "Fields from table /SAPSLL/CTSATR were migrated to /SAPSLL/CTSRTT. Refer section \"2.1.1.3/INS_CTSATR_2_CTSRTT\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTXT",
+      "Decsription": "Fields from table /SAPSLL/CTSTXT were migrated to /SAPSLL/CTSTXH. Refer section \"2.1.1.3/INS_CTSTXT_2_CTSTXH\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTXTT",
+      "Decsription": "Fields from table /SAPSLL/CTSTXTT were migrated to /SAPSLL/CTSTXL. Refer section \"2.1.1.3/INS_CTSTXTT_2_CTSTXL\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSFND",
+      "Decsription": "Fields from table /SAPSLL/CTSFND were migrated to /SAPSLL/CTSDFN. Refer section \"2.1.1.3/INS_CTSFND_2_CTSDFN\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSFNA",
+      "Decsription": "Fields from table /SAPSLL/CTSFNA were migrated to /SAPSLL/CTSAFN. Refer section \"2.1.1.3/INS_CTSFNA_2_CTSAFN\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSDMD",
+      "Decsription": "Fields from table /SAPSLL/CTSDMD were migrated to /SAPSLL/CTSDCD. Refer section \"2.1.1.3/INS_CTSDMD_2_CTSDCD\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMND",
+      "Decsription": "Fields from table /SAPSLL/CTSMND were migrated to /SAPSLL/CTSTMD. Refer section \"2.1.1.3/INS_CTSMND_2_CTSTMD\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMNDC",
+      "Decsription": "Fields from table /SAPSLL/CTSMNDC were migrated to /SAPSLL/CTSTMDC. Refer section \"2.1.1.3/INS_CTSMNDC_2_CTSTMDC\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMNDP",
+      "Decsription": "Fields from table /SAPSLL/CTSMNDP were migrated to /SAPSLL/CTSTMDP. Refer section \"2.1.1.3/INS_CTSMNDP_2_CTSTMDP\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTNA",
+      "Decsription": "Fields from table /SAPSLL/CTSTNA were migrated to /SAPSLL/CTSTNAR. Refer section \"2.1.1.3/INS_CTSTNA_2_CTSTNAR\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMAC",
+      "Decsription": "Fields from table /SAPSLL/CTSMAC were migrated to /SAPSLL/CTSTMC. Refer section \"2.1.1.3/INS_CTSMAC_2_CTSTMC\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMAI",
+      "Decsription": "Fields from table /SAPSLL/CTSMAI were migrated to /SAPSLL/CTSTMI. Refer section \"2.1.1.3/INS_CTSMAI_2_CTSTMI\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTADD",
+      "Decsription": "Fields from table /SAPSLL/CTSADD were migrated to /SAPSLL/CTSADC. Refer section \"2.1.1.3/INS_CTSADD_2_CTSADC\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSXC",
+      "Decsription": "Fields from table /SAPSLL/LC_CUSXC were migrated to /SAPSLL/DTREXC. Refer section \"2.1.1.3/INS_LC_CUSXC_2_DTREXC\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CDWLM",
+      "Decsription": "Fields from table /SAPSLL/CDWLM were migrated to /SAPSLL/CDWLMEA. Refer section \"2.1.1.3/INS_CDWLM_2_CDWLMEA\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSACD",
+      "Decsription": "Fields from table /SAPSLL/CTSACD were migrated to /SAPSLL/CTSACC. Refer section \"2.1.1.3/INS_CTSACD_2_CTSACC\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTRR",
+      "Decsription": "Fields from table /SAPSLL/CTSTRR were migrated to /SAPSLL/CTSTAXR. Refer section \"2.1.1.3/INS_CTSTRR_2_CTSTAXR\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/WLTRRT",
+      "Decsription": "Fields from table /SAPSLL/WLTRRT were migrated to /SAPSLL/WLTAXR. Refer section \"2.1.1.3/INS_WLTRRT_2_WLTAXR\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRFPMRC",
+      "Decsription": "\"• The classification UUID was replaced by the reference number of the classification."
+    },
+    {
+      "tadirObject": "• Field /SAPSLL/PRFPMRC~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPMRC~CCNGN. Refer section \"\"2.1.1.4/UPD_2_PRFPMRC\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRPRFS",
+      "Decsription": "The UUID reference to the classification code was dropped (/SAPSLL/PRPRFS~GUID_HTSNUM) without any replacement. Also, the validity period defined in fields /SAPSLL/PRPRFS~DATAB and SAPSLL/ PRPRFS~DATBI was dropped without replacement. The special requirements are now time-independent. Refer section \"2.1.1.4/INS_PRPRFS_2_PRPRES\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRPRFC",
+      "Decsription": "\"The UUID reference to the classification code is no longer stored in field /SAPSLL/PRPRFC~GUID_HTSNUM,"
+    },
+    {
+      "tadirObject": "but in /SAPSLL/PRPREC~GUID_PRCLS. Also, the timestamps for the validity period (/SAPSLL/"
+    },
+    {
+      "tadirObject": "PRPRFC~DATAB and /SAPSLL/PRPRFC~DATBI) have been converted to date fields (/SAPSLL/ PRPREC~DATABand /SAPSLL/PRPREC~DATBI). Refer section \"\"2.1.1.4/INS_PRPRFC_2_PRPREC\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRFPM",
+      "Decsription": "\"• The classification UUID was replaced by the reference number of the classification."
+    },
+    {
+      "tadirObject": "• Field /SAPSLL/PRFPM~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPM~CCNGN. Refer section \"\"2.1.1.4/UPD_2_PRFPM\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRFPMRA",
+      "Decsription": "\"• The classification UUID was replaced by the reference number of the classification."
+    },
+    {
+      "tadirObject": "• Field /SAPSLL/PRFPMRA~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPMRA~CCNGN. Refer section \"\"2.1.1.4/UPD_2_PRFPMRA\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRVDREL",
+      "Decsription": "\"• The field /SAPSLL/PRVDREL~REQUEST_RELEVANCE has been added. Data from field /SAPSLL/ PRVDREL~PRREL was moved to /SAPSLL/PRVDREL~REQUEST_RELEVANCE with the following logic: If PRREL is set to \"\"X\"\" then the request relevance is set to \"\"-\"\". Otherwise the value 'D' is set."
+    },
+    {
+      "tadirObject": "• The field /SAPSLL/PRVDREL~GOODS_RETENTION_PERIOD was added. No data migration necessary as this is used in the new LTSD management process. Refer section \"\"2.1.1.4/UPD_2_PRVDREL\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PREBDOC",
+      "Decsription": "\"The field /SAPSLL/PREBDOC~PARTNER_ADRNR_REFTYPE has been added. The field is set with the following logic:"
+    },
+    {
+      "tadirObject": "If the Address Number (/SAPSLL/PREBDOC~PARTNER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then PARTNER_ADRNR_REFTYPE is set to \"\"3\"\" (Document Address). Otherwise, the value \"\"1\"\" (Partner Default Address) is set. Refer section \"\"2.1.1.4/UPD_2_PREBDOC\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/DOOHD",
+      "Decsription": "\"The field /SAPSLL/DOOHD~PARTNER_ADRNR_REFTYPE has been added. The field is set with the following logic:"
+    },
+    {
+      "tadirObject": "If the Address Number (/SAPSLL/DOOHD~PARTNER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then PARTNER_ADRNR_REFTYPE is set to \"\"3\"\" (Document Address). Otherwise, the value \"\"1\"\" (Partner Default Address) is set. Refer section \"\"2.1.1.4/UPD_2_DOOHD\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/RIRHD",
+      "Decsription": "\"The field /SAPSLL/RIRHD~LTSD_RECEIVER_ADRNR_REFTYPE has been added. The field is set with the following logic:"
+    },
+    {
+      "tadirObject": "If the Address Number (/SAPSLL/RIRHD~LTSD_RECEIVER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSD_RECEIVER_ADRNR_REFTYPE is set to \"\"3\"\" (Document Address). Otherwise the value \"\"1\"\" (Partner Default Address) is set. Refer section \"\"2.1.1.4/UPD_2_RIRHD\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LLS_CUSTLTSD_D",
+      "Decsription": "\"The field LLS_CUSTLTSD_D~LTSDRECEIVERADDRREFERENCETYPE has been added. The field is set with the following logic:"
+    },
+    {
+      "tadirObject": "If the Address Number (LLS_CUSTLTSD_D~ LTSDRECEIVERADDRESSID) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSDRECEIVERADDRREFERENCETYPE is set to \"\"3\"\" (Document Address). Otherwise the value \"\"1\"\" (Partner Default Address) is set. Refer section \"\"2.1.1.4/UPD_2_LLS_CUSTLTSD_D\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LLS_REISRSN_D",
+      "Decsription": "\"The field LLS_REISRSN_D~LTSDRECEIVERADDRREFERENCETYPE has been added. The field is set with the following logic:"
+    },
+    {
+      "tadirObject": "If the Address Number (LLS_REISRSN_D~LTSDRECEIVERADDRESSID) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSDRECEIVERADDRREFERENCETYPE is set to \"\"3\"\" (Document Address). Otherwise, the value \"\"1\"\" (Partner Default Address) is set. Refer section \"\"2.1.1.4/UPD_2_LLS_REISRSN_D\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG01",
+      "Decsription": "\"Reduction of Activation Options"
+    },
+    {
+      "tadirObject": "The activation options of the legal regulations for Intrastat are reduced to the following options:"
+    },
+    {
+      "tadirObject": "• [ ] = Not Active"
+    },
+    {
+      "tadirObject": "• [1] = Active. "
+    },
+    {
+      "tadirObject": "This applies to the following table fields:"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG01~ERAC1: Activation of Legal Regulation for Receipts"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG01~ERAC2: Activation of Legal Regulation for Dispatches. "
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_ALRG01\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG02",
+      "Decsription": "\"Reduction of Activation Options"
+    },
+    {
+      "tadirObject": "The activation options of the legal regulations for Intrastat are reduced to the following options:"
+    },
+    {
+      "tadirObject": "• [ ] = Not Active"
+    },
+    {
+      "tadirObject": "• [1] = Active"
+    },
+    {
+      "tadirObject": "This applies to the following table fields:"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG02~ERAC1: Activation of Legal Regulation for Receipts"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG02~ERAC2: Activation of Legal Regulation for Dispatches."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_ALRG02\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG03",
+      "Decsription": "\"Reduction of Activation Options"
+    },
+    {
+      "tadirObject": "The activation options of the legal regulations for Intrastat are reduced to the following options:"
+    },
+    {
+      "tadirObject": "• [ ] = Not Active"
+    },
+    {
+      "tadirObject": "• [1] = Active"
+    },
+    {
+      "tadirObject": "This applies to the following table fields:"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG03~ERAC1: Activation of Legal Regulation for Receipts"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG03~ERAC2: Activation of Legal Regulation for Dispatches."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_ALRG03\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG11",
+      "Decsription": "\"Reduction of Activation Options"
+    },
+    {
+      "tadirObject": "The activation options of the legal regulations for Intrastat are reduced to the following options:"
+    },
+    {
+      "tadirObject": "• [ ] = Not Active"
+    },
+    {
+      "tadirObject": "• [1] = Active"
+    },
+    {
+      "tadirObject": "This applies to the following table fields:"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG11~ERAC1: Activation of Legal Regulation for Receipts"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG11~ERAC2: Activation of Legal Regulation for Dispatches."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_ALRG11\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG12",
+      "Decsription": "\"Reduction of Activation Options"
+    },
+    {
+      "tadirObject": "The activation options of the legal regulations for Intrastat are reduced to the following options:"
+    },
+    {
+      "tadirObject": "• [ ] = Not Active"
+    },
+    {
+      "tadirObject": "• [1] = Active"
+    },
+    {
+      "tadirObject": "This applies to the following table fields:"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG12~ERAC1: Activation of Legal Regulation for Receipts"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG12~ERAC2: Activation of Legal Regulation for Dispatches."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_ALRG12\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG13",
+      "Decsription": "\"Reduction of Activation Options"
+    },
+    {
+      "tadirObject": "The activation options of the legal regulations for Intrastat are reduced to the following options:"
+    },
+    {
+      "tadirObject": "Conversion Guide for SAP Global Trade Services, edition for SAP HANA"
+    },
+    {
+      "tadirObject": "44 PUBLIC SAP Global Trade Services, edition for SAP HANA"
+    },
+    {
+      "tadirObject": "• [ ] = Not Active"
+    },
+    {
+      "tadirObject": "• [1] = Active"
+    },
+    {
+      "tadirObject": "This applies to the following table fields:"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG13~ERAC1: Activation of Legal Regulation for Receipts"
+    },
+    {
+      "tadirObject": "• /SAPSLL/ALRG13~ERAC2: Activation of Legal Regulation for Dispatches."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_ALRG13\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/ECRG/RPLI",
+      "Decsription": "\"UPD_2_RPIT"
+    },
+    {
+      "tadirObject": "Data is transferred from the following table:/ECRG/RPLI: Log Item Import from Worklist The following fields were added:"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~ICRTY: Creation Type"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~DOTYP: Document Type"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~DONUM: Document Number"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~DOITM: Document Item Number"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~RDTYP: Reference Document Type"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~RDNUM: Reference Document Number"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~RDITM: Reference Document Item Number "
+    },
+    {
+      "tadirObject": "• /ECRG/RPIT~LOGSY: Logical System"
+    },
+    {
+      "tadirObject": "The following field is initialized: /ECRG/RPIT~ITNUM: Item Number"
+    },
+    {
+      "tadirObject": "The following table is no longer used: /ECRG/RPLI: Log Item Import from Worklist."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_RPIT\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+    },
+    {
+      "tadirObject": "UPD_2_RPIC"
+    },
+    {
+      "tadirObject": "Data is transferred from the following table: /ECRG/RPLI: Log Item Import from Worklist The following fields were added:"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~ICRTY: Creation Type"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~DOTYP: Document Type"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~DONUM: Document Number"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~DOITM: Document Item Number"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~RDTYP: Reference Document Type"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~RDNUM: Reference Document Number"
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~RDITM: Reference Document Item Number "
+    },
+    {
+      "tadirObject": "• /ECRG/RPIC~LOGSY: Logical System"
+    },
+    {
+      "tadirObject": "The following field is initialized: /ECRG/RPIT~ITNUM: Item Number"
+    },
+    {
+      "tadirObject": "The following table is no longer used: /ECRG/RPLI: Log Item Import from Worklist"
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.5/UPD_2_RPIC\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+    },
+    {
+      "tadirObject": "The namespace of the tables was changed from /ECRS/ to /ECRG/ and the data in the tables in the / ECRS/ namespace was copied to /ECRG/.\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTS",
+      "Decsription": "\"Numbering Scheme Content;Activation of Numbering Scheme Content;Definition of Numbering Scheme;Number Set Definition."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTST",
+      "Decsription": "\"Description of Numbering Scheme Content;Description of Numbering Scheme;Description Number Set."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSA",
+      "Decsription": "\"Structure of Numbering Scheme Content."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSAT",
+      "Decsription": "\"Structure of Numbering Scheme Content - Description."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSB",
+      "Decsription": "\"Definition Alternative No. Scheme Content for Data Upload."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSK",
+      "Decsription": "\"Definition of Government Agency Code. "
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSKT",
+      "Decsription": "\"Government Agency Code - Description."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSZ",
+      "Decsription": "\"Assignment of Additional Schemes to Numbering Scheme Content."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPGC",
+      "Decsription": "\"PGA Program Codes. "
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPGCT",
+      "Decsription": "\"PGA Program Codes - Name. "
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPCG",
+      "Decsription": "\"Grouping of PGA Program Codes."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPCGT",
+      "Decsription": "\"Grouping of PGA Program Codes - Name."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPCGA",
+      "Decsription": "\"Assignment of Program Code to Grouping."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPRC",
+      "Decsription": "\"PGA Process Codes."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPRCT",
+      "Decsription": "\"PGA Process Codes - Description."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCODCD",
+      "Decsription": "\"PGA Disclaimer Code."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCODCDT",
+      "Decsription": "\"PGA Disclaimer Codes - Description."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCTSMS",
+      "Decsription": "\"Measure Content;Activation Measure Content."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCTSMST",
+      "Decsription": "\"Measure Content - Name."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTINC",
+      "Decsription": "\"Chapter Restriction During Number Upload."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNA",
+      "Decsription": "\"Tariff Number Attributes Definition."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNAT",
+      "Decsription": "\"Tariff Number Attributes Definition- Name."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSM",
+      "Decsription": "\"Mapping External Duty Types to Internal Duty Types."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TLC_CRUL",
+      "Decsription": "\"Define External Calculation Codes for No. Scheme Content."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TLC_CRUT",
+      "Decsription": "\"Description for External Calculation Code."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNV",
+      "Decsription": "\"Values of Tariff Number Attributes."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNVT",
+      "Decsription": "\"Values for Tariff Number Attributes - Description."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTYGPA",
+      "Decsription": "\"Assign Country to Country Group."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.1.6\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/LCC_DOCUMENT",
+      "Decsription": "\"Legal Control: Synchronous Check"
+    },
+    {
+      "tadirObject": "Change: Method LICENSES_GET: change of reference type for parameter IT_LCLIC to /SAPSLL/LICHD_T BAdI."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.2\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/CUHD_RELEASE_N",
+      "Decsription": "\"Release Blocked Documents"
+    },
+    {
+      "tadirObject": "Change: Method RELEVANT_LICENSES_GET: change of reference type for parameter IT_LCLIC to /SAPSLL/LICHD_T"
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.2\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
+      "Decsription": "\"[Obsolete] ITAR Tracking: Value Calculation."
+    },
+    {
+      "tadirObject": "Change"
+    },
+    {
+      "tadirObject": "Method SET_PR_VALUE: change of reference type for parameter:"
+    },
+    {
+      "tadirObject": "• IS_LCLIC to /SAPSLL/LICHD"
+    },
+    {
+      "tadirObject": "• IS_LCLICA to /SAPSLL/LICHDA"
+    },
+    {
+      "tadirObject": "• IS_LCLICRQL to /SAPSLL/LICHDRQL • CS_LCLICRVL to /SAPSLL/LICHDRQL"
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.2\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/ITAR_TRACK_ES_N",
+      "Decsription": "\"Determination of Authorizations. "
+    },
+    {
+      "tadirObject": "Change : Method SET_PR_VALUE: change of reference type for parameter:"
+    },
+    {
+      "tadirObject": "• IS_LCLIC to /SAPSLL/LICHD"
+    },
+    {
+      "tadirObject": "• IS_LCLICA to /SAPSLL/LICHDA"
+    },
+    {
+      "tadirObject": "• IS_LCLICRQL to /SAPSLL/LICHDRQL • CS_LCLICRVL to /SAPSLL/LICHDRQL"
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.2\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/BADI_LCLIC_PROP_N",
+      "Decsription": "\"Default Data when Entering and Processing Licenses. "
+    },
+    {
+      "tadirObject": "Change : Method LICENSE_DATA_PROPOSE: change of reference type for parameter CS_OBJ to /SAPSLL/LICHD_OBJ_S"
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.2\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/LCLIC_PROP",
+      "Decsription": "\"[Obsolete] Default when Entering Licenses."
+    },
+    {
+      "tadirObject": "Change : Method LICENSE_DATA_PROPOSE: change of reference type for parameter CS_OBJ to /SAPSLL/LICHD_OBJ_S"
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.2\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/SAPSLL/GRANT_DETERMINE",
+      "Decsription": "\"[Obsolete] Determination of Authorizations."
+    },
+    {
+      "tadirObject": "Method: GRANT_DETERMINE: change of reference type for parameter IT_LCLIC to /SAPSLL/LICHD_T."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.3\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/ECRS/RP_CHECK_ITEM",
+      "Decsription": "\"Additional Item Checks in Intrastat Declarations."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.5\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "ENHO",
+      "tadirObjName": "/ECRS/RP_FILE_TRANSFER",
+      "Decsription": "\"Transfer of Intrastat Declaration Files to Authorities."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.2.5\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/LCLIC_GET_OBJECT",
+      "Decsription": "\"Reference type /SAPSLL/LICHD_OBJ_S replaces /SAPSLL/LCLIC_OBJ_S in the interface parameters of the signature of the following function module."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.5\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/LCLIC_GET_OBJECT_PK",
+      "Decsription": "\"Reference type /SAPSLL/LICHD_OBJ_S replaces /SAPSLL/LCLIC_OBJ_S in the interface parameters of the signature of the following function module."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.5\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "FUNC",
+      "tadirObjName": "/SAPSLL/LCLIC_MAINTAIN_OBJECT",
+      "Decsription": "\"Reference type /SAPSLL/LICHD_OBJ_S replaces /SAPSLL/LCLIC_OBJ_S in the interface parameters of the signature of the following function module."
+    },
+    {
+      "tadirObject": "Refer section \"\"2.1.5\"\" of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\""
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLIC",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICM",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICS",
+      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section \"2.1.6 Main Data Tables\" of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+    }
+  ]
 }
