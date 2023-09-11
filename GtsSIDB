@@ -1,53 +1,2969 @@
 {
-    "formatVersion":"1",
-    "objectReleaseInfo":
-    [
-       {
-        "tadirObject":"FUGR",
-        "tadirObjName":"MEWP",
-        "objectType":"FUNC",
-        "objectKey":"BAPI_PO_GETDETAIL",
-        "softwareComponent":"SAPSCORE",
-        "applicationComponent":"MM-PUR-PO",
-        "state":"notToBeReleased"
-       },
-       {
-        "tadirObject":"TABL",
-        "tadirObjName":"/SAPSLL/CTSNUM",
-        "objectType":"TABL",
-        "objectKey":"/SAPSLL/CTSNUM",
-        "softwareComponent":"SLL-LEG",
-        "applicationComponent":"SLL",
-        "state":"deprecated",
-        "successorClassification":"oneObject",
-        "successors":
-        [
-         {
-          "tadirObject":"TABL",
-          "tadirObjName":"/SAPSLL/CTSNR",
-          "objectType":"TABL",
-          "objectKey":"/SAPSLL/CTSNR"
-         }
-        ]
-       },
-       {
-        "tadirObject":"FUGR",
-        "tadirObjName":"/SAPSLL/CUHD_INTACT_OBJ",
-        "objectType":"FUNC",
-        "objectKey":"/SAPSLL/CUHD_GET_OBJECT",
-        "softwareComponent":"SLL-LEG",
-        "applicationComponent":"SLL-LEG",
-        "state":"deprecated",
-        "successorClassification":"oneObject",
-        "successors":
-        [
-         {
-          "tadirObject":"FUGR",
-          "tadirObjName":"/SAPSLL/CUHD_INTACT_OBJ",
-          "objectType":"FUNC",
-          "objectKey":"/SAPSLL/CUHD_GET_OBJECT"
-         }
-        ]
-       }   
-    ]
+  "formatVersion": "1",
+  "objectReleaseInfo": [
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG01",
+      "objectKey": "/SAPSLL/ALRG01",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/ALRG01",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/ALRG01"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG02",
+      "objectKey": "/SAPSLL/ALRG02",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/ALRG02",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/ALRG02"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG03",
+      "objectKey": "/SAPSLL/ALRG03",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/ALRG03",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/ALRG03"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG11",
+      "objectKey": "/SAPSLL/ALRG11",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/ALRG11",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/ALRG11"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG12",
+      "objectKey": "/SAPSLL/ALRG12",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/ALRG12",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/ALRG12"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/ALRG13",
+      "objectKey": "/SAPSLL/ALRG13",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/ALRG13",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/ALRG13"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CCCTRY",
+      "objectKey": "/SAPSLL/CCCTRY",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/EMBCLR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/EMBCLR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD01",
+      "objectKey": "/SAPSLL/CD01",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD01N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD01N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD02",
+      "objectKey": "/SAPSLL/CD02",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD02N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD02N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD03",
+      "objectKey": "/SAPSLL/CD03",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD03N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD03N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD04",
+      "objectKey": "/SAPSLL/CD04",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD04N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD04N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD05",
+      "objectKey": "/SAPSLL/CD05",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD05N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD05N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD06",
+      "objectKey": "/SAPSLL/CD06",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD06N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD06N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD07",
+      "objectKey": "/SAPSLL/CD07",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD07N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD07N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD08",
+      "objectKey": "/SAPSLL/CD08",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD08N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD08N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD09",
+      "objectKey": "/SAPSLL/CD09",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD09N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD09N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD10",
+      "objectKey": "/SAPSLL/CD10",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD10N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD10N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD11",
+      "objectKey": "/SAPSLL/CD11",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD11N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD11N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD12",
+      "objectKey": "/SAPSLL/CD12",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD12N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD12N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD13",
+      "objectKey": "/SAPSLL/CD13",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD13N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD13N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD14",
+      "objectKey": "/SAPSLL/CD14",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD14N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD14N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD15",
+      "objectKey": "/SAPSLL/CD15",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD15N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD15N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD18",
+      "objectKey": "/SAPSLL/CD18",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD18N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD18N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD19",
+      "objectKey": "/SAPSLL/CD19",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD19N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD19N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD20",
+      "objectKey": "/SAPSLL/CD20",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD20N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD20N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CD21",
+      "objectKey": "/SAPSLL/CD21",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CD21N",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CD21N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CDWLM",
+      "objectKey": "/SAPSLL/CDWLM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CDWLMEA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CDWLMEA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CEEMB",
+      "objectKey": "/SAPSLL/CEEMB",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/EMBCCR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/EMBCCR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CNTRY",
+      "objectKey": "/SAPSLL/CNTRY",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/EMBCTY",
+          "tobjectType": "TABL",
+          "objectKey": "SAPSLL/EMBCTY"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CORCTS",
+      "objectKey": "/SAPSLL/CORCTS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CORCTS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CORCTS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CORCTSC",
+      "objectKey": "/SAPSLL/CORCTSC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CORCTS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CORCTS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CORCTZ",
+      "objectKey": "/SAPSLL/CORCTZ",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRATC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRATC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSACD",
+      "objectKey": "/SAPSLL/CTSACD",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSACC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSACC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSATR",
+      "objectKey": "/SAPSLL/CTSATR",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSRTT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSRTT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSDMA",
+      "objectKey": "/SAPSLL/CTSDMA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSDCN",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSDCN"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSDMD",
+      "objectKey": "/SAPSLL/CTSDMD",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSDCD ",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSDCD "
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSFNA",
+      "objectKey": "/SAPSLL/CTSFNA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSAFN",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSAFN"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSFND",
+      "objectKey": "/SAPSLL/CTSFND",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSDFN",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSDFN"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSGEN",
+      "objectKey": "/SAPSLL/CTSGEN",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSHR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSHR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSGENT",
+      "objectKey": "/SAPSLL/CTSGENT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSHRT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSHRT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMAC",
+      "objectKey": "/SAPSLL/CTSMAC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTMC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTMC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMAE",
+      "objectKey": "/SAPSLL/CTSMAE",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSACT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMAI",
+      "objectKey": "/SAPSLL/CTSMAI",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTMI",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTMI"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMND",
+      "objectKey": "/SAPSLL/CTSMND",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTMD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTMD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMNDC",
+      "objectKey": "/SAPSLL/CTSMNDC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTMDC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTMDC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSMNDP",
+      "objectKey": "/SAPSLL/CTSMNDP",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTMDP",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTMDP"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUM",
+      "objectKey": "/SAPSLL/CTSNUM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSNR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSNR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUMC",
+      "objectKey": "/SAPSLL/CTSNUMC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSNR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSNR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUMCT",
+      "objectKey": "/SAPSLL/CTSNUMCT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSNRT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSNRT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNUMT",
+      "objectKey": "/SAPSLL/CTSNUMT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSNRT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSNRT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSNZR",
+      "objectKey": "/SAPSLL/CTSNZR",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSACN",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSACN"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTNA",
+      "objectKey": "/SAPSLL/CTSTNA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTNAR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTNAR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTRR",
+      "objectKey": "/SAPSLL/CTSTRR",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTAXR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTAXR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTXT",
+      "objectKey": "/SAPSLL/CTSTXT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTXH",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTXH"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTSTXTT",
+      "objectKey": "/SAPSLL/CTSTXTT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTSTXL",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTSTXL"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CTYGPA",
+      "objectKey": "/SAPSLL/CTYGPA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CTYGRA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CTYGRA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUHDDAT",
+      "objectKey": "/SAPSLL/CUHDDAT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUHDSTA",
+      "objectKey": "/SAPSLL/CUHDSTA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUITDAT",
+      "objectKey": "/SAPSLL/CUITDAT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUIT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUIT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUITSTA",
+      "objectKey": "/SAPSLL/CUITSTA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUIT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUIT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/CUPED",
+      "objectKey": "/SAPSLL/CUPED",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUPED",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUPED"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/DPDATA",
+      "objectKey": "/SAPSLL/DPDATA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/DPDATA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/DPDATA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLIC",
+      "objectKey": "/SAPSLL/LCLIC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAQ",
+      "objectKey": "/SAPSLL/LCLICAQ",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDRQ",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDRQ"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAQL",
+      "objectKey": "/SAPSLL/LCLICAQL",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDRQL",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDRQL"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAV",
+      "objectKey": "/SAPSLL/LCLICAV",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDRV",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDRV"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICAVL",
+      "objectKey": "/SAPSLL/LCLICAVL",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDRVL",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDRVL"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICC",
+      "objectKey": "/SAPSLL/LCLICC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDCL",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDCL"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICI",
+      "objectKey": "/SAPSLL/LCLICI",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDTN",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDTN"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICM",
+      "objectKey": "/SAPSLL/LCLICM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDM",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDM"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICN",
+      "objectKey": "/SAPSLL/LCLICN",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDSCF",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDSCF"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICS",
+      "objectKey": "/SAPSLL/LCLICS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LCLICW",
+      "objectKey": "/SAPSLL/LCLICW",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LICHDSC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LICHDSC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSB1",
+      "objectKey": "/SAPSLL/LC_CUSB1",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/DTRCUS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/DTRCUS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSB2",
+      "objectKey": "/SAPSLL/LC_CUSB2",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/DTRPRE",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/DTRPRE"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSM",
+      "objectKey": "/SAPSLL/LC_CUSM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TEDTM",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TEDTM"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LC_CUSXC",
+      "objectKey": "/SAPSLL/LC_CUSXC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/DTREXC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/DTREXC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGCOM",
+      "objectKey": "/SAPSLL/LEGCOM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGCON",
+      "objectKey": "/SAPSLL/LEGCON",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/LEGCON",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/LEGCON"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGCUS",
+      "objectKey": "/SAPSLL/LEGCUS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUIT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUIT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/LEGTPR",
+      "objectKey": "/SAPSLL/LEGTPR",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/CUHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/CUHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRACM",
+      "objectKey": "/SAPSLL/PRACM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRACA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRACA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRCON",
+      "objectKey": "/SAPSLL/PRCON",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRLRG",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRLRG"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRCTS",
+      "objectKey": "/SAPSLL/PRCTS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRCLS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRCLS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRCTSC",
+      "objectKey": "/SAPSLL/PRCTSC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRCLS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRCLS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRFPM",
+      "objectKey": "/SAPSLL/PRFPM",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRFPM",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRFPM"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRFPMRA",
+      "objectKey": "/SAPSLL/PRFPMRA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRFPMRA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRFPMRA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRFPMRC",
+      "objectKey": "/SAPSLL/PRFPMRC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRFPMRC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRFPMRC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRPRFC",
+      "objectKey": "/SAPSLL/PRPRFC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRPREC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRPREC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRPRFS",
+      "objectKey": "/SAPSLL/PRPRFS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRPRES",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRPRES"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/PRVDREL",
+      "objectKey": "/SAPSLL/PRVDREL",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/PRVDREL",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/PRVDREL"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOCMP",
+      "objectKey": "/SAPSLL/TCOCMP",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCMP",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCMP"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCODCD",
+      "objectKey": "/SAPSLL/TCODCD",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTDCD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTDCD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCODCDT",
+      "objectKey": "/SAPSLL/TCODCDT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTDCDT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTDCDT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOGVA",
+      "objectKey": "/SAPSLL/TCOGVA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOGVA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOGVA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOGVS",
+      "objectKey": "/SAPSLL/TCOGVS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOGVS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOGVS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOGVST",
+      "objectKey": "/SAPSLL/TCOGVST",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOGVST",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOGVST"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPCG",
+      "objectKey": "/SAPSLL/TCOPCG",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPCG",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPCG"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPCGA",
+      "objectKey": "/SAPSLL/TCOPCGA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPCGA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPCGA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPCGT",
+      "objectKey": "/SAPSLL/TCOPCGT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPCGT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPCGT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPGC",
+      "objectKey": "/SAPSLL/TCOPGC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPGC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPGC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPGCT",
+      "objectKey": "/SAPSLL/TCOPGCT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPGCT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPGCT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPRC",
+      "objectKey": "/SAPSLL/TCOPRC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPRC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPRC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOPRCT",
+      "objectKey": "/SAPSLL/TCOPRCT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTPRCT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTPRCT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTINC",
+      "objectKey": "/SAPSLL/TCOTINC",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTIN",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTIN"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNA",
+      "objectKey": "/SAPSLL/TCOTNA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTNA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTNA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNAT",
+      "objectKey": "/SAPSLL/TCOTNAT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTNAT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTNAT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNV",
+      "objectKey": "/SAPSLL/TCOTNV",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTNAV",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTNAV"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTNVT",
+      "objectKey": "/SAPSLL/TCOTNVT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTNAVT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTNAVT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTS",
+      "objectKey": "/SAPSLL/TCOTS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "multipleObjects",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCT"
+        },
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCA"
+        },
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCONS",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCONS"
+        },
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TNSETD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TNSETD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSA",
+      "objectKey": "/SAPSLL/TCOTSA",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSAT",
+      "objectKey": "/SAPSLL/TCOTSAT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTAT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTAT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSB",
+      "objectKey": "/SAPSLL/TCOTSB",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTB",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTB"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSK",
+      "objectKey": "/SAPSLL/TCOTSK",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTK",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTK"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSKT",
+      "objectKey": "/SAPSLL/TCOTSKT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTKT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTKT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTST",
+      "objectKey": "/SAPSLL/TCOTST",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "multipleObjects",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTT"
+        },
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCONST",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCONST"
+        },
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TNSETDT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TNSETDT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCOTSZ",
+      "objectKey": "/SAPSLL/TCOTSZ",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCOCTZ",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCOCTZ"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCTSMS",
+      "objectKey": "/SAPSLL/TCTSMS",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "multipleObjects",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTSMC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTSMC"
+        },
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTSMCA",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTSMCA"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TCTSMST",
+      "objectKey": "/SAPSLL/TCTSMST",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TCTSMCT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TCTSMCT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TDPCMB",
+      "objectKey": "/SAPSLL/TDPCMB",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TDPCMB",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TDPCMB"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TLC_CRUL",
+      "objectKey": "/SAPSLL/TLC_CRUL",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TDTRCAC",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TDTRCAC"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TLC_CRUT",
+      "objectKey": "/SAPSLL/TLC_CRUT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TDTRCACT",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TDTRCACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TSCHD",
+      "objectKey": "/SAPSLL/TSCHD",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TSCHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TSCHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TSHD",
+      "objectKey": "/SAPSLL/TSHD",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TSHD",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TSHD"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/TSPED",
+      "objectKey": "/SAPSLL/TSPED",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/TSPED",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/TSPED"
+        }
+      ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "/SAPSLL/WLTRRT",
+      "objectKey": "/SAPSLL/WLTRRT",
+      "objectType": "TABL",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "/SAPSLL/WLTAXR",
+          "tobjectType": "TABL",
+          "objectKey": "/SAPSLL/WLTAXR"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/ECRS/RP",
+      "objectKey": "/ECRS/RP_CHECK_ITEM",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-ECR",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/ECRG/RP",
+          "tobjectType": "ENHO",
+          "objectKey": "/ECRG/RP_CHECK_ITEM"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CUS_EXPORT_WITH_TIB",
+      "objectKey": "/SAPSLL/CUS_EXPORT_WITH_TIB",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CUS_EXPORT_WITH_TIB",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_EXP_WITH_TRS_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CU_SPOT_ES_CHK",
+      "objectKey": "/SAPSLL/EXPRT_DECL_REQ_CHK",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CU_SPOT_ES_CHK",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_EXPDECL_REQ_CHK_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CU_SPOT_SE_EXPRTDECL",
+      "objectKey": "/SAPSLL/CU_SE_EXPRTDECL_REQ",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CU_SPOT_SE_EXPRTDECL",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/CU_SE_EXPDECL_REQ_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CU_SPOT_SE_IMPRTDECL",
+      "objectKey": "/SAPSLL/CU_SE_IMPRTDECL_NOTIF",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CU_SPOT_SE_IMPRTDECL",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/CU_SE_IMPDECL_NOTIF_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ECC_INBOUND",
+      "objectKey": "/SAPSLL/ECC_INBOUND",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ECC_INBOUND",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_ECC_INBOUND_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ECMC_OUT",
+      "objectKey": "/SAPSLL/BADI_ECMC_ELANK2",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ECMC_OUT",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_ECMC_ELANK2_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_BRKR_COMM",
+      "objectKey": "/SAPSLL/BADI_BRKR_MNTRG_IMPRT",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_BRKR_COMM",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_BRKR_MNTRG_IMP_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_CDOC_COPY",
+      "objectKey": "/SAPSLL/BADI_CDOC_COPY",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_CDOC_COPY",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_CDOC_COPY_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
+      "objectKey": "/SAPSLL/BADI_CDOC_EX_UI_CON",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_CDOC_EX_UI_CON_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_CDOC_SCP",
+      "objectKey": "/SAPSLL/BADI_CDOC_SCP_OP",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_CDOC_SCP",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_CDOC_SCP_OP_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_CUHD_BOM",
+      "objectKey": "/SAPSLL/BADI_CUHD_BOM",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_CUHD_BOM",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_CDOC_BOM_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_EXTIF_CUS_CDOC",
+      "objectKey": "/SAPSLL/BADI_IFMAP_CUS_CEVE",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_EXTIF_CUS_CDOC",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_IFMAP_CEVE_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_EXT_PRD",
+      "objectKey": "/SAPSLL/BADI_EXT_PRD",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_EXT_PRD",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_EXT_PRD_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_TSHD",
+      "objectKey": "/SAPSLL/BADI_TSHD_ECC",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_TSHD",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_TSHD_ECC_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_VD_EXT",
+      "objectKey": "/SAPSLL/BADI_VD_EXTIF_MAP",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": ""
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/GRANT_DETERMINE",
+      "objectKey": "/SAPSLL/GRANT_DETERMINE",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/GRANT_DETERMINE",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/GRANT_DETERMINE"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
+      "objectKey": "/SAPSLL/ITAR_TRACK_ES",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/ITAR_TRACK_ES"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/ECRS/RP",
+      "objectKey": "/ECRS/RP_FILE_TRANSFER",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-ECR",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/ECRG/RP",
+          "tobjectType": "ENHO",
+          "objectKey": "/ECRG/RP_FILE_TRANSFER"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CU_SPOT_ES_CHK",
+      "objectKey": "/SAPSLL/IMPRT_DECL_REQ_CHK",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CU_SPOT_ES_CHK",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_IMPDECL_REQ_CHK_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CU_SPOT_SE_EXPRTDECL",
+      "objectKey": "/SAPSLL/CU_SE_EXPRTDECL_NOTIF",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CU_SPOT_SE_EXPRTDECL",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/CU_SE_EXPDECL_NOTIF_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/CU_SPOT_SE_IMPRTDECL",
+      "objectKey": "SAPSLL/CU_SE_IMPRTDECL_REQ",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/CU_SPOT_SE_IMPRTDECL",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/CU_SE_IMPDECL_REQ_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_BRKR_COMM",
+      "objectKey": "/SAPSLL/BADI_BRKR_MNTRG_EXPRT",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_BRKR_COMM",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_BRKR_MNTRG_EXP_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
+      "objectKey": "/SAPSLL/BADI_CDOC_EXT_UI",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_CDOC_EXT_UI_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_EXT_PRD",
+      "objectKey": "/SAPSLL/BADI_EXT_UI_PRD",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_EXT_PRD",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_EXT_UI_PRD_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_VD_EXT",
+      "objectKey": "/SAPSLL/BADI_VD_EXT_CREATE",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": ""
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
+      "objectKey": "/SAPSLL/ITAR_TRACK_ES_N",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ITAR_TRACK_ES",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/ITAR_TRACK_ES_N"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
+      "objectKey": "/SAPSLL/CUHD_GET_OBJECT",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/CUHD_INTACT_OBJ"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
+      "objectKey": "/SAPSLL/CUHD_GET_OBJECT_PK",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/CUHD_INTACT_OBJ"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
+      "objectKey": "/SAPSLL/CUHD_MAINTAIN_OBJECT",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/CUHD_INTACT_OBJ",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/CUHD_INTACT_OBJ"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
+      "objectKey": "/SAPSLL/PRODUCT_GET_OBJECT",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/PRODUCT_INTACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
+      "objectKey": "/SAPSLL/PRODUCT_GET_OBJECT_SK",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/PRODUCT_INTACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
+      "objectKey": "/SAPSLL/PRODUCT_MNTN_OBJECT",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/PRODUCT_INTACT",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/PRODUCT_INTACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/LCLIC_INTACT",
+      "objectKey": "/SAPSLL/LCLIC_GET_OBJECT",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/LCLIC_INTACT",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/LCLIC_INTACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/LCLIC_INTACT",
+      "objectKey": "/SAPSLL/LCLIC_GET_OBJECT_PK",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/LCLIC_INTACT",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/LCLIC_INTACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAPSLL/LCLIC_INTACT",
+      "objectKey": "/SAPSLL/LCLIC_MAINTAIN_OBJECT",
+      "objectType": "FUNC",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "FUGR",
+          "tadirObjName": "/SAPSLL/LCLIC_INTACT",
+          "tobjectType": "FUNC",
+          "objectKey": "/SAPSLL/LCLIC_INTACT"
+        }
+      ]
+    },
+    {
+      "tadirObject": "SXSD",
+      "tadirObjName": "/SAPSLL/PRE_PRINT",
+      "objectKey": "#N/A",
+      "objectType": "",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": ""
+    },
+    {
+      "tadirObject": "ENHS",
+      "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
+      "objectKey": "/SAPSLL/BADI_CDOC_EXT",
+      "objectType": "ENHO",
+      "softwareComponent": "SLL-LEG",
+      "applicationComponent": "SLL-LEG",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "ENHS",
+          "tadirObjName": "/SAPSLL/ES_BADI_CDOC_EXT",
+          "tobjectType": "ENHO",
+          "objectKey": "/SAPSLL/BADI_CDOC_EXT_N"
+        }
+      ]
+    }
+  ]
 }
