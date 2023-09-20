@@ -5,7 +5,7 @@ https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio498
 
 Prerequiste
 1. Central ATC system/ System where CCM App is positioned must have certain infrastructure(cloudif DB check classes/Cloud Readiness ATC)
-   hence make sure Note : https://me.sap.com/notes/3284711 is implemented as the current approach is copy of class CL_CLS_CI_CHECK_E_ONPR_CLOUDIF and its super class with some
+   hence make sure Note : https://me.sap.com/notes/3284711 is implemented as the current approach is copy of class "CL_CLS_CI_CHECK_E_ONPR_CLOUDIF" and its super class with some
    modification to connect this GtHub Repository for custom simplification DB for GTS
 3. System must be on >= S/4HANA 2020
 
