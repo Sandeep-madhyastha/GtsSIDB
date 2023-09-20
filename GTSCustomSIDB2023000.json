@@ -519,7 +519,7 @@
           "tadirObject": "TABL",
           "tadirObjName": "/SAPSLL/EMBCTY",
           "objectType": "TABL",
-          "objectKey": "SAPSLL/EMBCTY"
+          "objectKey": "/SAPSLL/EMBCTY"
         }
       ]
     },
