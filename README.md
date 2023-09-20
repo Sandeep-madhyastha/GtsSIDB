@@ -1,4 +1,4 @@
-# GtsSIDB
+# GtsSIDB (Custom)
 GTS Custom Simplification DB
 The JSON files were built by going through the "Conversion Guide for SAP Global Trade Services, edition for SAP HANA(Document version 2023 version 000 )
 https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf
@@ -10,7 +10,7 @@ Prerequiste
 3. System must be on >= S/4HANA 2020
 
 Pending Task
-1. Currently working on making this class available on Git Hub
+1. Currently working on making this class available on Git Hub(Just global class is posted here, changes can be checked by searching string "Begin of Change")
 2. Creation of custom Zcheck class from scratch accesing Git(Future Scope)
 
    
