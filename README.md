@@ -13,7 +13,7 @@ Prerequisites
    class "CL_CLS_CI_CHECK_E_ONPR_CLOUDIF" and its super class with some modification to connect this GtHub Repository for custom 
    simplification DB for GTS
    Note: Find string "** Begin of Change" or "** Begin of Adjustment" in the ABAP Zcheck classes to see the modifications done
-2. System must be on >= S/4HANA 2020
+3. System must be on >= S/4HANA 2020
 
 Pending Task
 1. Currently working on making this classes "ZCL_CCM_CLS_CI_CHECK_ENV" and "ZCL_CCM_CLS_CI_CHK_E_OP_CLDIF" available on Git Hub(Just global class is posted here, changes can be checked by searching string "Begin of Change")
