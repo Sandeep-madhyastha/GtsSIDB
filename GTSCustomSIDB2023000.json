@@ -2967,7 +2967,7 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/CUHD_OBJ_S”,
+      "tadirObjName": "/SAPSLL/CUHD_OBJ_S",
       "objectKey": "/SAPSLL/CUHD_OBJ_S",
       "objectType": "TABL",
       "softwareComponent": "SLL-LEG",
@@ -2985,7 +2985,7 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/PR_OBJ_S”,
+      "tadirObjName": "/SAPSLL/PR_OBJ_S",
       "objectKey": "/SAPSLL/PR_OBJ_S",
       "objectType": "TABL",
       "softwareComponent": "SLL-LEG",
@@ -3003,7 +3003,7 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LCLIC_OBJ_S”,
+      "tadirObjName": "/SAPSLL/LCLIC_OBJ_S",
       "objectKey": "/SAPSLL/LCLIC_OBJ_S",
       "objectType": "TABL",
       "softwareComponent": "SLL-LEG",
