@@ -14,7 +14,7 @@ Prerequiste
 3. System must be on >= S/4HANA 2020
 
 Pending Task
-1. Currently working on making this class available on Git Hub(Just global class is posted here, changes can be checked by searching string "Begin of Change")
+1. Currently working on making this classes "ZCL_CCM_CLS_CI_CHECK_ENV" and "ZCL_CCM_CLS_CI_CHK_E_OP_CLDIF" available on Git Hub(Just global class is posted here, changes can be checked by searching string "Begin of Change")
 2. Creation of custom Zcheck class from scratch accesing Git(Future Scope)
 
    
