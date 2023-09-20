@@ -11,9 +11,10 @@ Prerequisites
 1. Central ATC system/ System where CCM App is positioned must have certain infrastructure(cloudif DB check classes/Cloud 
    Readiness ATC) hence make sure Note : https://me.sap.com/notes/3284711 is implemented as the current approach is copy of 
    class "CL_CLS_CI_CHECK_E_ONPR_CLOUDIF" and its super class with some modification to connect this GtHub Repository for custom 
-   simplification DB for GTS. 
+   simplification DB for GTS.
+   
    Note: Find string "** Begin of Change" or "** Begin of Adjustment" in the ABAP Zcheck classes to see the modifications done
-3. System must be on >= S/4HANA 2020
+2. System must be on >= S/4HANA 2020
 
 Pending Task
 1. Currently working on making this classes "ZCL_CCM_CLS_CI_CHECK_ENV" and "ZCL_CCM_CLS_CI_CHK_E_OP_CLDIF" available on Git Hub(Just global class is posted here, changes can be checked by searching string "Begin of Change")
