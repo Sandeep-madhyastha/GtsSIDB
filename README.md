@@ -3,6 +3,7 @@ GTS Custom Simplification DB
 The JSON files 
 1. GTSCustomSIDB2023000.json -> Contains Successor/deprecation related information (based on json structure of Cloudification DB)
 2. GtsSIDBDetails.json -> Contains Details about Data model/APi changes (Custom json structure built from scratch)
+
 were built by going through the "Conversion Guide for SAP Global Trade Services, edition for SAP HANA(Document version 2023 version 000 )
 https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf
 
