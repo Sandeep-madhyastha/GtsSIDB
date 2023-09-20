@@ -49,11 +49,13 @@ public section.
   data L_DESTINATION type RFCDEST .
 
   methods CONSTRUCTOR .
+** Begin of Change
   methods LOAD_CHNG_SIDBDET_FROM_GIT
     importing
       !I_GIT_URL type SYCM_URL optional
     returning
       value(RS_OBJ_SIDBCHNG_DET_FRM_GIT) type TY_OBJ_DET_FULL .
+** End of Change
 
   methods GET_ATTRIBUTES
     redefinition .
@@ -1310,7 +1312,7 @@ CLASS ZCL_CCM_CLS_CI_CHECK_ENV IMPLEMENTATION.
     endif.
   endmethod.
 
-
+** Begin of Change
 * <SIGNATURE>---------------------------------------------------------------------------------------+
 * | Instance Public Method ZCL_CCM_CLS_CI_CHECK_ENV->LOAD_CHNG_SIDBDET_FROM_GIT
 * +-------------------------------------------------------------------------------------------------+
@@ -1369,6 +1371,7 @@ CLASS ZCL_CCM_CLS_CI_CHECK_ENV IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
+** End of Change
 
 
 * <SIGNATURE>---------------------------------------------------------------------------------------+
