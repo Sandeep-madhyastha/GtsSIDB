@@ -1,5 +1,5 @@
 # GtsSIDB (Custom)
-GTS Custom Simplification DB
+GTS Custom Simplification DB technically consists of successor/deprecation/Data meodel or API Changes and its details in GTS system as json files in this Git Hub Repository
 The JSON files 
 1. GTSCustomSIDB2023000.json -> Contains Successor/deprecation related information (based on json structure of Cloudification DB)
 2. GtsSIDBDetails.json -> Contains Details about Data model/APi changes (Custom json structure built from scratch)
