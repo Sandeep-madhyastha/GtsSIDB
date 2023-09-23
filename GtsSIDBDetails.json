@@ -64,17 +64,17 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CUHD_OBJ_S",
-      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/CDOC_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete, use successor /SAPSLL/CDOC_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LCLIC_OBJ_S",
-      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/LICHD_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete, use successor /SAPSLL/LICHD_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PR_OBJ_S",
-      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/CPRD_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete, use successor /SAPSLL/CPRD_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "ENHO",
@@ -247,14 +247,14 @@
       "Decsription": "BAdI: Integration of External Data with Structure of Supplier Declaration. Replacement not available yet"
     },
     {
-      "tadirObject": "ENHO(CLASSIC_BADI)",
+      "tadirObject": "ENHO",
       "tadirObjName": "/SAPSLL/PRE_PRINT",
-      "Decsription": "GTS: BAdI: Print. Replacement not available yet"
+      "Decsription": "(CLASSIC_BADI)GTS: BAdI: Print. Replacement not available yet"
     },
     {
-      "tadirObject": "ENHO(CLASSIC_BADI)",
+      "tadirObject": "ENHO",
       "tadirObjName": "/SAPSLL/ECR_EXTRACT",
-      "Decsription": "Intrastat Extractor for SAP Electronic Compliance Reporting"
+      "Decsription": "(CLASSIC_BADI)Intrastat Extractor for SAP Electronic Compliance Reporting"
     },
     {
       "tadirObject": "FUNC",
@@ -289,22 +289,22 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOGVS",
-      "Decsription": "Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVS. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Changes in Object.Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVS. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOGVST ",
-      "Decsription": "Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVST. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Changes in Object.Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVST. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOGVA",
-      "Decsription": "Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVA, the client independency was removed and the Client field was added to table /SAPSLL/TCOGVA. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Changes in Object.Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVA, the client independency was removed and the Client field was added to table /SAPSLL/TCOGVA. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CORCTS",
-      "Decsription": "• The actual classification code replaces the classification UUID.\n• Field /SAPSLL/CORCTS~GUID_CTSNUM was retired and replaced by /SAPSLL/CORCTS~CCNGN.\n• In the future, field /SAPSLL/CORCTS~CLSTY describes the classification type, for example, [A] = tariff number, [B] = commodity code, [C] = export control classification number, and so on. Refer section `2.1.1.2/UPD_2_CORCTS and 2.1.1.3/UPD_2_CORCTS` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Changes in Object.• The actual classification code replaces the classification UUID.\n• Field /SAPSLL/CORCTS~GUID_CTSNUM was retired and replaced by /SAPSLL/CORCTS~CCNGN.\n• In the future, field /SAPSLL/CORCTS~CLSTY describes the classification type, for example, [A] = tariff number, [B] = commodity code, [C] = export control classification number, and so on. Refer section `2.1.1.2/UPD_2_CORCTS and 2.1.1.3/UPD_2_CORCTS` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
