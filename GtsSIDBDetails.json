@@ -549,12 +549,12 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LICHDPT",
-      "Decsription": "The UUID reference to commodity code according to field /SAPSLL/LCLICPT~GUID_CTSNUM is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDPT-CCNGN). Refer section `2.1.1.3/UPD_2_LCLICPT` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The UUID reference to commodity code according to field /SAPSLL/LCLICPT~GUID_CTSNUM is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDPT-CCNGN). Refer section `2.1.1.3/UPD_2_LCLICPT` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LICHDPTM ",
-      "Decsription": "The UUID reference to commodity code according to field /SAPSLL/LCLICPTM~GUID_CTSNUM is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDPTM-CCNGN).  Refer section `2.1.1.3/UPD_2_LICHDPTM` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "tadirObjName": "/SAPSLL/LICHDPTM",
+      "Decsription": "Changes in Object.The UUID reference to commodity code according to field /SAPSLL/LCLICPTM~GUID_CTSNUM is dropped and replaced by the direct reference to the commodity code (/SAPSLL/LICHDPTM-CCNGN).  Refer section `2.1.1.3/UPD_2_LICHDPTM` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
@@ -674,27 +674,27 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRFPMRC",
-      "Decsription": "• The classification UUID was replaced by the reference number of the classification.\n• Field /SAPSLL/PRFPMRC~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPMRC~CCNGN. Refer section `2.1.1.4/UPD_2_PRFPMRC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.• The classification UUID was replaced by the reference number of the classification.\n• Field /SAPSLL/PRFPMRC~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPMRC~CCNGN. Refer section `2.1.1.4/UPD_2_PRFPMRC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRPRFS",
-      "Decsription": "The UUID reference to the classification code was dropped (/SAPSLL/PRPRFS~GUID_HTSNUM) without any replacement. Also, the validity period defined in fields /SAPSLL/PRPRFS~DATAB and SAPSLL/ PRPRFS~DATBI was dropped without replacement. The special requirements are now time-independent. Refer section `2.1.1.4/INS_PRPRFS_2_PRPRES` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/PRPRFS is obsolete, use successor /SAPSLL/PRPRES.The UUID reference to the classification code was dropped (/SAPSLL/PRPRFS~GUID_HTSNUM) without any replacement. Also, the validity period defined in fields /SAPSLL/PRPRFS~DATAB and SAPSLL/ PRPRFS~DATBI was dropped without replacement. The special requirements are now time-independent. Refer section `2.1.1.4/INS_PRPRFS_2_PRPRES` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRPRFC",
-      "Decsription": "The UUID reference to the classification code is no longer stored in field /SAPSLL/PRPRFC~GUID_HTSNUM,\nbut in /SAPSLL/PRPREC~GUID_PRCLS. Also, the timestamps for the validity period (/SAPSLL/\nPRPRFC~DATAB and /SAPSLL/PRPRFC~DATBI) have been converted to date fields (/SAPSLL/ PRPREC~DATABand /SAPSLL/PRPREC~DATBI). Refer section `2.1.1.4/INS_PRPRFC_2_PRPREC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/PRPRFC is obsolete, use successor /SAPSLL/PRPREC.The UUID reference to the classification code is no longer stored in field /SAPSLL/PRPRFC~GUID_HTSNUM,\nbut in /SAPSLL/PRPREC~GUID_PRCLS. Also, the timestamps for the validity period (/SAPSLL/\nPRPRFC~DATAB and /SAPSLL/PRPRFC~DATBI) have been converted to date fields (/SAPSLL/ PRPREC~DATABand /SAPSLL/PRPREC~DATBI). Refer section `2.1.1.4/INS_PRPRFC_2_PRPREC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRFPM",
-      "Decsription": "• The classification UUID was replaced by the reference number of the classification.\n• Field /SAPSLL/PRFPM~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPM~CCNGN. Refer section `2.1.1.4/UPD_2_PRFPM` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.• The classification UUID was replaced by the reference number of the classification.\n• Field /SAPSLL/PRFPM~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPM~CCNGN. Refer section `2.1.1.4/UPD_2_PRFPM` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRFPMRA",
-      "Decsription": "• The classification UUID was replaced by the reference number of the classification.\n• Field /SAPSLL/PRFPMRA~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPMRA~CCNGN. Refer section `2.1.1.4/UPD_2_PRFPMRA` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.• The classification UUID was replaced by the reference number of the classification.\n• Field /SAPSLL/PRFPMRA~GUID_HTSNUM was retired and was replaced by /SAPSLL/PRFPMRA~CCNGN. Refer section `2.1.1.4/UPD_2_PRFPMRA` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
