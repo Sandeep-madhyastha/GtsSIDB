@@ -434,12 +434,12 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CD20",
-      "Decsription": "• The Valid From and Valid To time stamps (/SAPSLL/CD20~DATAB and /SAPSLL/CD20~DATBI) were\ntransferred to data fields (/SAPSLL/CD20N~DATAB and /SAPSLL/CD20N~DATBI).\n• The UUID reference to the control class (/SAPSLL/CD20~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD20N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/C20N~STCTS).\n• The UUID reference to the classification condition (/SAPSLL/CD20~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD20N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD20N~STCTS_CTSCD). Refer section `2.1.1.2 / INS_CD20_2_CD20N` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/CD20 is obsolete, use successor /SAPSLL/CD20N.• The Valid From and Valid To time stamps (/SAPSLL/CD20~DATAB and /SAPSLL/CD20~DATBI) were\ntransferred to data fields (/SAPSLL/CD20N~DATAB and /SAPSLL/CD20N~DATBI).\n• The UUID reference to the control class (/SAPSLL/CD20~GUID_CTS) was dropped and was replaced by the reference number of the control class (/SAPSLL/CD20N~CONCL) in the context of the corresponding numbering schema (/SAPSLL/C20N~STCTS).\n• The UUID reference to the classification condition (/SAPSLL/CD20~GUID_CTSCD) was dropped and was replaced by the reference number of the classification condition (/SAPSLL/CD20N~CTSCD) in the context of the corresponding numbering schema (/SAPSLL/CD20N~STCTS_CTSCD). Refer section `2.1.1.2 / INS_CD20_2_CD20N` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CD21",
-      "Decsription": "• The Valid From and Valid To time stamps (/SAPSLL/CD21~DATAB and /SAPSLL/CD21~DATBI) were\ntransferred to data fields (/SAPSLL/CD21N~DATAB and /SAPSLL/CD21N~DATBI).\n• The UUID reference to the classification condition (/SAPSLL/CD21~GUID_CTSCD) is obsolete and was\ndropped without replacement. Refer section `2.1.1.2 / INS_CD21_2_CD21N` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/CD21 is obsolete, use successor /SAPSLL/CD21N.• The Valid From and Valid To time stamps (/SAPSLL/CD21~DATAB and /SAPSLL/CD21~DATBI) were\ntransferred to data fields (/SAPSLL/CD21N~DATAB and /SAPSLL/CD21N~DATBI).\n• The UUID reference to the classification condition (/SAPSLL/CD21~GUID_CTSCD) is obsolete and was\ndropped without replacement. Refer section `2.1.1.2 / INS_CD21_2_CD21N` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
