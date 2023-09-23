@@ -338,7 +338,7 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LCLICAQL ",
+      "tadirObjName": "/SAPSLL/LCLICAQL",
       "Decsription": "Table /SAPSLL/LCLICAQL is obsolete, use successor /SAPSLL/LICHDRQL.No structural changes between target table and source table. Simply adjustment of the names of the referenced table /SAPSLL/LCLICRQ, for example, field /SAPSLL/LICHDRQL~GUID_LCLICRQ.. Refer section `2.1.1.2 / INS_LCLICAQL_2_LICHDRQL` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
