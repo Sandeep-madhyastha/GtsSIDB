@@ -293,7 +293,7 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/TCOGVST ",
+      "tadirObjName": "/SAPSLL/TCOGVST",
       "Decsription": "Changes in Object.Client Independency Removed: To enable current settings in View /SAPSLL/V_TCOGVS, the client independency was removed, and the Client field was added to table /SAPSLL/TCOGVST. Refer Section 2.1.1.1 of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
@@ -444,22 +444,22 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CNTRY",
-      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/CNTRY~DATAB and /SAPSLL/CNTRY~DATBI) were transferred to data fields (/SAPSLL/EMBCTY~DATAB and /SAPSLL/EMBCTY~DATBI). Refer section `2.1.1.2 / INS_CNTRY_2_EMBCTY` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/CNTRY is obsolete, use successor SAPSLL/EMBCTY.The Valid From and Valid To time stamps (/SAPSLL/CNTRY~DATAB and /SAPSLL/CNTRY~DATBI) were transferred to data fields (/SAPSLL/EMBCTY~DATAB and /SAPSLL/EMBCTY~DATBI). Refer section `2.1.1.2 / INS_CNTRY_2_EMBCTY` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CCCTRY",
-      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/CCCTRY~DATAB and /SAPSLL/CCCTRY~DATBI) were transferred to data fields (/SAPSLL/EMBCLR~DATAB and /SAPSLL/EMBCLR~DATBI).  Refer section `2.1.1.2 / INS_CCCTRY_2_EMBCLR` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/CCCTRY is obsolete, use successor /SAPSLL/EMBCLR.The Valid From and Valid To time stamps (/SAPSLL/CCCTRY~DATAB and /SAPSLL/CCCTRY~DATBI) were transferred to data fields (/SAPSLL/EMBCLR~DATAB and /SAPSLL/EMBCLR~DATBI).  Refer section `2.1.1.2 / INS_CCCTRY_2_EMBCLR` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CEEMB",
-      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/CEEMB~DATAB und /SAPSLL/CEEMB~DATBI) were transferred to data fields (/SAPSLL/EMBCCR~DATAB und /SAPSLL/EMBCCR~DATBI).  Refer section `2.1.1.2 / INS_CEEMB_2_EMBCCR` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/CEEMB is obsolete, use successor /SAPSLL/EMBCCR.The Valid From and Valid To time stamps (/SAPSLL/CEEMB~DATAB und /SAPSLL/CEEMB~DATBI) were transferred to data fields (/SAPSLL/EMBCCR~DATAB und /SAPSLL/EMBCCR~DATBI).  Refer section `2.1.1.2 / INS_CEEMB_2_EMBCCR` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRCON",
-      "Decsription": "The Valid From and Valid To time stamps (/SAPSLL/PRCON~DATAB and /SAPSLL/PRCON~DATBI) were transferred to data fields (/SAPSLL/ PRLRG~DATAB and /SAPSLL/PRLRG~DATBI). Refer section `2.1.1.2 / INS_PRCON_2_PRLRG` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Table /SAPSLL/PRCON is obsolete, use successor /SAPSLL/PRLRG.The Valid From and Valid To time stamps (/SAPSLL/PRCON~DATAB and /SAPSLL/PRCON~DATBI) were transferred to data fields (/SAPSLL/ PRLRG~DATAB and /SAPSLL/PRLRG~DATBI). Refer section `2.1.1.2 / INS_PRCON_2_PRLRG` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
@@ -499,12 +499,12 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TDPCMB",
-      "Decsription": "• The data proposal fields G_STAWN (UUID of the commodity code) and G_IMPCN_UUID (UUID of the tariff number) are obsolete and are replaced by the field combinations I_STAWN and I_IMPCN, which represent the classification numbers directly.\n• These changes are reflected in the data proposal schemes where the fields named above where replaced by the new ones. Refer section `2.1.1.3/UPD_2_DPDATA` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.• The data proposal fields G_STAWN (UUID of the commodity code) and G_IMPCN_UUID (UUID of the tariff number) are obsolete and are replaced by the field combinations I_STAWN and I_IMPCN, which represent the classification numbers directly.\n• These changes are reflected in the data proposal schemes where the fields named above where replaced by the new ones. Refer section `2.1.1.3/UPD_2_DPDATA` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/DPDATA",
-      "Decsription": "• The data proposal fields G_STAWN (UUID of the commodity code) and G_IMPCN_UUID (UUID of the tariff number) are obsolete and are replaced by the field combinations I_STAWN and I_IMPCN, which represent the classification numbers directly.\n• These changes are reflected in the data proposal schemes where the fields named above where replaced by the new ones. Refer section `2.1.1.3/UPD_2_DPDATA` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.• The data proposal fields G_STAWN (UUID of the commodity code) and G_IMPCN_UUID (UUID of the tariff number) are obsolete and are replaced by the field combinations I_STAWN and I_IMPCN, which represent the classification numbers directly.\n• These changes are reflected in the data proposal schemes where the fields named above where replaced by the new ones. Refer section `2.1.1.3/UPD_2_DPDATA` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
