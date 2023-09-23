@@ -64,17 +64,17 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CUHD_OBJ_S",
-      "Decsription": "BAdI methods that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/CDOC_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/CDOC_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LCLIC_OBJ_S",
-      "Decsription": "BAdI methods that reference the following structure gets affected.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/LICHD_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PR_OBJ_S",
-      "Decsription": "BAdI methods that reference the following structure gets affected.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "BAdI methods,FM's or any ABAP object that reference the following structure gets affected.Structure is obsolete use successor /SAPSLL/CPRD_OBJ_S.\nRead Section `2.1.2` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "ENHO",
