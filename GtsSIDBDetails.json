@@ -699,207 +699,207 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PRVDREL",
-      "Decsription": "• The field /SAPSLL/PRVDREL~REQUEST_RELEVANCE has been added. Data from field /SAPSLL/ PRVDREL~PRREL was moved to /SAPSLL/PRVDREL~REQUEST_RELEVANCE with the following logic: If PRREL is set to `X` then the request relevance is set to `-`. Otherwise the value 'D' is set.\n• The field /SAPSLL/PRVDREL~GOODS_RETENTION_PERIOD was added. No data migration necessary as this is used in the new LTSD management process. Refer section `2.1.1.4/UPD_2_PRVDREL` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.• The field /SAPSLL/PRVDREL~REQUEST_RELEVANCE has been added. Data from field /SAPSLL/ PRVDREL~PRREL was moved to /SAPSLL/PRVDREL~REQUEST_RELEVANCE with the following logic: If PRREL is set to `X` then the request relevance is set to `-`. Otherwise the value 'D' is set.\n• The field /SAPSLL/PRVDREL~GOODS_RETENTION_PERIOD was added. No data migration necessary as this is used in the new LTSD management process. Refer section `2.1.1.4/UPD_2_PRVDREL` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/PREBDOC",
-      "Decsription": "The field /SAPSLL/PREBDOC~PARTNER_ADRNR_REFTYPE has been added. The field is set with the following logic:\nIf the Address Number (/SAPSLL/PREBDOC~PARTNER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then PARTNER_ADRNR_REFTYPE is set to `3` (Document Address). Otherwise, the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_PREBDOC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The field /SAPSLL/PREBDOC~PARTNER_ADRNR_REFTYPE has been added. The field is set with the following logic:\nIf the Address Number (/SAPSLL/PREBDOC~PARTNER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then PARTNER_ADRNR_REFTYPE is set to `3` (Document Address). Otherwise, the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_PREBDOC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/DOOHD",
-      "Decsription": "The field /SAPSLL/DOOHD~PARTNER_ADRNR_REFTYPE has been added. The field is set with the following logic:\nIf the Address Number (/SAPSLL/DOOHD~PARTNER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then PARTNER_ADRNR_REFTYPE is set to `3` (Document Address). Otherwise, the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_DOOHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The field /SAPSLL/DOOHD~PARTNER_ADRNR_REFTYPE has been added. The field is set with the following logic:\nIf the Address Number (/SAPSLL/DOOHD~PARTNER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then PARTNER_ADRNR_REFTYPE is set to `3` (Document Address). Otherwise, the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_DOOHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/RIRHD",
-      "Decsription": "The field /SAPSLL/RIRHD~LTSD_RECEIVER_ADRNR_REFTYPE has been added. The field is set with the following logic:\nIf the Address Number (/SAPSLL/RIRHD~LTSD_RECEIVER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSD_RECEIVER_ADRNR_REFTYPE is set to `3` (Document Address). Otherwise the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_RIRHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The field /SAPSLL/RIRHD~LTSD_RECEIVER_ADRNR_REFTYPE has been added. The field is set with the following logic:\nIf the Address Number (/SAPSLL/RIRHD~LTSD_RECEIVER_ADRNR) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSD_RECEIVER_ADRNR_REFTYPE is set to `3` (Document Address). Otherwise the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_RIRHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LLS_CUSTLTSD_D",
-      "Decsription": "The field LLS_CUSTLTSD_D~LTSDRECEIVERADDRREFERENCETYPE has been added. The field is set with the following logic:\nIf the Address Number (LLS_CUSTLTSD_D~ LTSDRECEIVERADDRESSID) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSDRECEIVERADDRREFERENCETYPE is set to `3` (Document Address). Otherwise the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_LLS_CUSTLTSD_D` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The field LLS_CUSTLTSD_D~LTSDRECEIVERADDRREFERENCETYPE has been added. The field is set with the following logic:\nIf the Address Number (LLS_CUSTLTSD_D~ LTSDRECEIVERADDRESSID) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSDRECEIVERADDRREFERENCETYPE is set to `3` (Document Address). Otherwise the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_LLS_CUSTLTSD_D` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LLS_REISRSN_D",
-      "Decsription": "The field LLS_REISRSN_D~LTSDRECEIVERADDRREFERENCETYPE has been added. The field is set with the following logic:\nIf the Address Number (LLS_REISRSN_D~LTSDRECEIVERADDRESSID) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSDRECEIVERADDRREFERENCETYPE is set to `3` (Document Address). Otherwise, the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_LLS_REISRSN_D` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The field LLS_REISRSN_D~LTSDRECEIVERADDRREFERENCETYPE has been added. The field is set with the following logic:\nIf the Address Number (LLS_REISRSN_D~LTSDRECEIVERADDRESSID) exists in table ADRV with ADRV~ADDR_GROUP = “SL03”, ADRV~APPL_TABLE = “SLL_PREBDO”, ADRV~APPL_FIELD = “ADRNR” and ADRV~OWNER = “X”, then LTSDRECEIVERADDRREFERENCETYPE is set to `3` (Document Address). Otherwise, the value `1` (Partner Default Address) is set. Refer section `2.1.1.4/UPD_2_LLS_REISRSN_D` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/ALRG01",
-      "Decsription": "Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active. \nThis applies to the following table fields:\n• /SAPSLL/ALRG01~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG01~ERAC2: Activation of Legal Regulation for Dispatches. \nRefer section `2.1.1.5/UPD_2_ALRG01` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active. \nThis applies to the following table fields:\n• /SAPSLL/ALRG01~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG01~ERAC2: Activation of Legal Regulation for Dispatches. \nRefer section `2.1.1.5/UPD_2_ALRG01` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/ALRG02",
-      "Decsription": "Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG02~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG02~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG02` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG02~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG02~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG02` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/ALRG03",
-      "Decsription": "Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG03~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG03~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG03` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Changes in Object.Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG03~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG03~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG03` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/ALRG11",
-      "Decsription": "Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG11~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG11~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG11` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Changes in Object.Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG11~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG11~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG11` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/ALRG12",
-      "Decsription": "Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG12~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG12~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG12` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Changes in Object.Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG12~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG12~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG12` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/ALRG13",
-      "Decsription": "Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\nConversion Guide for SAP Global Trade Services, edition for SAP HANA\n44 PUBLIC SAP Global Trade Services, edition for SAP HANA\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG13~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG13~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG13` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Changes in Object.Reduction of Activation Options\nThe activation options of the legal regulations for Intrastat are reduced to the following options:\nConversion Guide for SAP Global Trade Services, edition for SAP HANA\n44 PUBLIC SAP Global Trade Services, edition for SAP HANA\n• [ ] = Not Active\n• [1] = Active\nThis applies to the following table fields:\n• /SAPSLL/ALRG13~ERAC1: Activation of Legal Regulation for Receipts\n• /SAPSLL/ALRG13~ERAC2: Activation of Legal Regulation for Dispatches.\nRefer section `2.1.1.5/UPD_2_ALRG13` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/ECRG/RPLI",
-      "Decsription": "UPD_2_RPIT\nData is transferred from the following table:/ECRG/RPLI: Log Item Import from Worklist The following fields were added:\n• /ECRG/RPIT~ICRTY: Creation Type\n• /ECRG/RPIT~DOTYP: Document Type\n• /ECRG/RPIT~DONUM: Document Number\n• /ECRG/RPIT~DOITM: Document Item Number\n• /ECRG/RPIT~RDTYP: Reference Document Type\n• /ECRG/RPIT~RDNUM: Reference Document Number\n• /ECRG/RPIT~RDITM: Reference Document Item Number \n• /ECRG/RPIT~LOGSY: Logical System\nThe following field is initialized: /ECRG/RPIT~ITNUM: Item Number\nThe following table is no longer used: /ECRG/RPLI: Log Item Import from Worklist.\nRefer section `2.1.1.5/UPD_2_RPIT` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\nUPD_2_RPIC\nData is transferred from the following table: /ECRG/RPLI: Log Item Import from Worklist The following fields were added:\n• /ECRG/RPIC~ICRTY: Creation Type\n• /ECRG/RPIC~DOTYP: Document Type\n• /ECRG/RPIC~DONUM: Document Number\n• /ECRG/RPIC~DOITM: Document Item Number\n• /ECRG/RPIC~RDTYP: Reference Document Type\n• /ECRG/RPIC~RDNUM: Reference Document Number\n• /ECRG/RPIC~RDITM: Reference Document Item Number \n• /ECRG/RPIC~LOGSY: Logical System\nThe following field is initialized: /ECRG/RPIT~ITNUM: Item Number\nThe following table is no longer used: /ECRG/RPLI: Log Item Import from Worklist\nRefer section `2.1.1.5/UPD_2_RPIC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\nThe namespace of the tables was changed from /ECRS/ to /ECRG/ and the data in the tables in the / ECRS/ namespace was copied to /ECRG/."
+      "Decsription": "Table /ECRG/RPLI is obsolete, use successors /ECRG/RPIT, /ECRG/RPIC depending on requirement.UPD_2_RPIT\nData is transferred from the following table:/ECRG/RPLI: Log Item Import from Worklist The following fields were added:\n• /ECRG/RPIT~ICRTY: Creation Type\n• /ECRG/RPIT~DOTYP: Document Type\n• /ECRG/RPIT~DONUM: Document Number\n• /ECRG/RPIT~DOITM: Document Item Number\n• /ECRG/RPIT~RDTYP: Reference Document Type\n• /ECRG/RPIT~RDNUM: Reference Document Number\n• /ECRG/RPIT~RDITM: Reference Document Item Number \n• /ECRG/RPIT~LOGSY: Logical System\nThe following field is initialized: /ECRG/RPIT~ITNUM: Item Number\nThe following table is no longer used: /ECRG/RPLI: Log Item Import from Worklist.\nRefer section `2.1.1.5/UPD_2_RPIT` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\nUPD_2_RPIC\nData is transferred from the following table: /ECRG/RPLI: Log Item Import from Worklist The following fields were added:\n• /ECRG/RPIC~ICRTY: Creation Type\n• /ECRG/RPIC~DOTYP: Document Type\n• /ECRG/RPIC~DONUM: Document Number\n• /ECRG/RPIC~DOITM: Document Item Number\n• /ECRG/RPIC~RDTYP: Reference Document Type\n• /ECRG/RPIC~RDNUM: Reference Document Number\n• /ECRG/RPIC~RDITM: Reference Document Item Number \n• /ECRG/RPIC~LOGSY: Logical System\nThe following field is initialized: /ECRG/RPIT~ITNUM: Item Number\nThe following table is no longer used: /ECRG/RPLI: Log Item Import from Worklist\nRefer section `2.1.1.5/UPD_2_RPIC` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf\nThe namespace of the tables was changed from /ECRS/ to /ECRG/ and the data in the tables in the / ECRS/ namespace was copied to /ECRG/."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTS",
-      "Decsription": "Numbering Scheme Content;Activation of Numbering Scheme Content;Definition of Numbering Scheme;Number Set Definition.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTS is obsolete, use successors /SAPSLL/TCOCT, /SAPSLL/TCOCA, /SAPSLL/TCONS, /SAPSLL/TNSETD depending on requirement.Numbering Scheme Content;Activation of Numbering Scheme Content;Definition of Numbering Scheme;Number Set Definition.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTST",
-      "Decsription": "Description of Numbering Scheme Content;Description of Numbering Scheme;Description Number Set.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTST is obsolete, use successors /SAPSLL/TCOCTT, /SAPSLL/TCONST, /SAPSLL/TNSETDT depending on requirement.Description of Numbering Scheme Content;Description of Numbering Scheme;Description Number Set.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTSA",
-      "Decsription": "Structure of Numbering Scheme Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTSA is obsolete, use successor /SAPSLL/TCOCTA.Structure of Numbering Scheme Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTSAT",
-      "Decsription": "Structure of Numbering Scheme Content - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTSAT is obsolete, use successor /SAPSLL/TCOCTAT.Structure of Numbering Scheme Content - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTSB",
-      "Decsription": "Definition Alternative No. Scheme Content for Data Upload.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTSB is obsolete, use successor /SAPSLL/TCOCTB.Definition Alternative No. Scheme Content for Data Upload.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTSK",
-      "Decsription": "Definition of Government Agency Code. \nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTSK is obsolete, use successor /SAPSLL/TCOCTK.Definition of Government Agency Code. \nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTSKT",
-      "Decsription": "Government Agency Code - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTSKT is obsolete, use successor /SAPSLL/TCOCTKT.Government Agency Code - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTSZ",
-      "Decsription": "Assignment of Additional Schemes to Numbering Scheme Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTSZ is obsolete, use successor /SAPSLL/TCOCTZ.Assignment of Additional Schemes to Numbering Scheme Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPGC",
-      "Decsription": "PGA Program Codes. \nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPGC is obsolete, use successor /SAPSLL/TCTPGC.PGA Program Codes. \nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPGCT",
-      "Decsription": "PGA Program Codes - Name. \nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPGCT is obsolete, use successor /SAPSLL/TCTPGCT.PGA Program Codes - Name. \nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPCG",
-      "Decsription": "Grouping of PGA Program Codes.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPCG is obsolete, use successor /SAPSLL/TCTPCG.Grouping of PGA Program Codes.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPCGT",
-      "Decsription": "Grouping of PGA Program Codes - Name.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPCGT is obsolete, use successor /SAPSLL/TCTPCGT.Grouping of PGA Program Codes - Name.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPCGA",
-      "Decsription": "Assignment of Program Code to Grouping.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPCGA is obsolete, use successor /SAPSLL/TCTPCGA.Assignment of Program Code to Grouping.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPRC",
-      "Decsription": "PGA Process Codes.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPRC is obsolete, use successor /SAPSLL/TCTPRC.PGA Process Codes.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOPRCT",
-      "Decsription": "PGA Process Codes - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOPRCT is obsolete, use successor /SAPSLL/TCTPRCT.PGA Process Codes - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCODCD",
-      "Decsription": "PGA Disclaimer Code.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCODCD is obsolete, use successor /SAPSLL/TCTDCD.PGA Disclaimer Code.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCODCDT",
-      "Decsription": "PGA Disclaimer Codes - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCODCDT is obsolete, use successor /SAPSLL/TCTDCDT.PGA Disclaimer Codes - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCTSMS",
-      "Decsription": "Measure Content;Activation Measure Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCTSMS is obsolete, use successors /SAPSLL/TCTSMC, /SAPSLL/TCTSMCA depending on scenario.Measure Content;Activation Measure Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCTSMST",
-      "Decsription": "Measure Content - Name.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCTSMST is obsolete, use successor /SAPSLL/TCTSMCT.Measure Content - Name.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTINC",
-      "Decsription": "Chapter Restriction During Number Upload.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTINC is obsolete, use successor /SAPSLL/TCTIN.Chapter Restriction During Number Upload.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTNA",
-      "Decsription": "Tariff Number Attributes Definition.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTNA is obsolete, use successor /SAPSLL/TCTNA.Tariff Number Attributes Definition.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTNAT",
-      "Decsription": "Tariff Number Attributes Definition- Name.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTNAT is obsolete, use successor /SAPSLL/TCTNAT.Tariff Number Attributes Definition- Name.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LC_CUSM",
-      "Decsription": "Mapping External Duty Types to Internal Duty Types.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/LC_CUSM is obsolete, use successor /SAPSLL/TEDTM.Mapping External Duty Types to Internal Duty Types.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TLC_CRUL",
-      "Decsription": "Define External Calculation Codes for No. Scheme Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TLC_CRUL is obsolete, use successor /SAPSLL/TDTRCAC.Define External Calculation Codes for No. Scheme Content.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TLC_CRUT",
-      "Decsription": "Description for External Calculation Code.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TLC_CRUT is obsolete, use successor /SAPSLL/TDTRCACT.Description for External Calculation Code.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTNV",
-      "Decsription": "Values of Tariff Number Attributes.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTNV is obsolete, use successor /SAPSLL/TCTNAV.Values of Tariff Number Attributes.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TCOTNVT",
-      "Decsription": "Values for Tariff Number Attributes - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/TCOTNVT is obsolete, use successor /SAPSLL/TCTNAVT.Values for Tariff Number Attributes - Description.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CTYGPA",
-      "Decsription": "Assign Country to Country Group.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
+      "Decsription": "Table /SAPSLL/CTYGPA is obsolete, use successor /SAPSLL/CTYGRA.Assign Country to Country Group.\nRefer section `2.1.1.6` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf"
     },
     {
       "tadirObject": "ENHO",
@@ -964,17 +964,17 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LCLIC",
-      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section `2.1.6 Main Data Tables` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Table /SAPSLL/LCLIC is obsolete, use successor /SAPSLL/LICHD.Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section `2.1.6 Main Data Tables` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LCLICM",
-      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section `2.1.6 Main Data Tables` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Table /SAPSLL/LCLICM is obsolete, use successor /SAPSLL/LICHDM.Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section `2.1.6 Main Data Tables` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LCLICS",
-      "Decsription": "Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section `2.1.6 Main Data Tables` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Table /SAPSLL/LCLICS is obsolete, use successor /SAPSLL/LICHDS.Substantial table changes: They concern customs documents used as part of Customs Management and Compliance Management. Simplification of the data model in SAP GTS, edition for SAP HANA.  Tablescan no longer be used.The data content is migrated to new table. Read Section `2.1.6 Main Data Tables` of Document : https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     }
   ]
 }
