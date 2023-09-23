@@ -509,22 +509,22 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/CUPED",
-      "Decsription": "The conversion exit on field /SAPSLL/CUPED~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section `2.1.1.3/UPD_2_CUPED` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The conversion exit on field /SAPSLL/CUPED~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section `2.1.1.3/UPD_2_CUPED` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TSHD",
-      "Decsription": "The conversion exit on field /SAPSLL/TSHD~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section `2.1.1.3/UPD_2_TSHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The conversion exit on field /SAPSLL/TSHD~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section `2.1.1.3/UPD_2_TSHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TSCHD",
-      "Decsription": "The conversion exit on field /SAPSLL/TSCHD~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section `2.1.1.3/UPD_2_TSCHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The conversion exit on field /SAPSLL/TSCHD~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number. Refer section `2.1.1.3/UPD_2_TSCHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/TSPED",
-      "Decsription": "The conversion exit on field /SAPSLL/TSPED~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number.  Refer section `2.1.1.3/UPD_2_TSPED` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
+      "Decsription": "Changes in Object.The conversion exit on field /SAPSLL/TSPED~REGNR is not in place any more which added/removed leading zeros. As a consequence, leading zeros will get significant for the registration number.  Refer section `2.1.1.3/UPD_2_TSPED` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
@@ -533,17 +533,17 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LCLICI ",
+      "tadirObjName": "/SAPSLL/LCLICI",
       "Decsription": "• Fields from table /SAPSLL/LCLICI were migrated to /SAPSLL/LICHDTN\n• The UUID reference to commodity code according to field /SAPSLL/LCLICWN~GUID_CTS is dropped and\nreplaced by the direct reference to the commodity code (/SAPSLL/LICHDTN-CCNGN). Refer section `2.1.1.3/INS_LCLICI_2_LICHDTN` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LCLICN ",
+      "tadirObjName": "/SAPSLL/LCLICN",
       "Decsription": "• Fields from table /SAPSLL/LCLICN were migrated to /SAPSLL/LICHDCP\n• The UUID reference to commodity code according to field /SAPSLL/LCLICN~GUID_CTS is dropped and\nreplaced by the direct reference to the commodity code (/SAPSLL/LICHDCP-CCNGN). Refer section `2.1.1.3/INS_LCLICN_2_LICHDCP` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LCLICN",
+      "tadirObjName": "/SAPSLL/LCLICWF",
       "Decsription": "• Fields from table /SAPSLL/LCLICWF were migrated to /SAPSLL/LICHDSCF\n• The UUID reference to commodity code according to field /SAPSLL/LCLICNWF~GUID_CTS is dropped and\nreplaced by the direct reference to the commodity code (/SAPSLL/LICHDSCF-CCNGN). Refer section `2.1.1.3/INS_LCLICWF_2_LICHDSCF` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-pdf."
     },
     {
