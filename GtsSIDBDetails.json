@@ -309,12 +309,12 @@
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LEGCON",
-      "Decsription": "The classification UUIDs of fields GUID_CTS_VDP and GUID_CTS_QDP were retired and were\nreplaced by the actual classification codes in table fields /SAPSLL/LEGCON~CCNGN_VDP and /SAPSLL/ LEGCON~CCNGN_QDP. Refer section `2.1.1.2 / UPD_2_LEGCON` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Changes in Object.The classification UUIDs of fields GUID_CTS_VDP and GUID_CTS_QDP were retired and were\nreplaced by the actual classification codes in table fields /SAPSLL/LEGCON~CCNGN_VDP and /SAPSLL/ LEGCON~CCNGN_QDP. Refer section `2.1.1.2 / UPD_2_LEGCON` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LICHD",
-      "Decsription": "Fields from table /SAPSLL/LCLIC were migrated to /SAPSLL/LICHD.\nThe Valid From and Valid To time stamps (/SAPSLL/LICHD~DATAB and /SAPSLL/LICHD~DATBI) were\ntransferred to data fields (/SAPSLL/LICHD~VALFR and /SAPSLL/LICHD~VALTO). Refer section `2.1.1.2/UPD_2_LICHD and 2.1.1.3/UPD_2_LICHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Changes in Object.Fields from table /SAPSLL/LCLIC were migrated to /SAPSLL/LICHD.\nThe Valid From and Valid To time stamps (/SAPSLL/LICHD~DATAB and /SAPSLL/LICHD~DATBI) were\ntransferred to data fields (/SAPSLL/LICHD~VALFR and /SAPSLL/LICHD~VALTO). Refer section `2.1.1.2/UPD_2_LICHD and 2.1.1.3/UPD_2_LICHD` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
@@ -323,13 +323,13 @@
     },
     {
       "tadirObject": "TABL",
-      "tadirObjName": "/SAPSLL/LCLICAV ",
-      "Decsription": "The UUID reference to the classification code was dropped (/SAPSLL/LCLICAV~GUID_CTS) and was replaced by the classification code (/SAPSLL/LICHDRV~CCNGN). Refer section `2.1.1.2 / INS_LCLICAV_2_LICHDRV` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "tadirObjName": "/SAPSLL/LCLICAV",
+      "Decsription": "Table /SAPSLL/LCLICAV is obsolete, use successor /SAPSLL/LICHDRV.The UUID reference to the classification code was dropped (/SAPSLL/LCLICAV~GUID_CTS) and was replaced by the classification code (/SAPSLL/LICHDRV~CCNGN). Refer section `2.1.1.2 / INS_LCLICAV_2_LICHDRV` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
       "tadirObjName": "/SAPSLL/LCLICAVL",
-      "Decsription": "No structural changes between target table and source table. Simply adjustment of the names of the referenced table /SAPSLL/LICHDRVL, for example, field /SAPSLL/LCLICRVL~GUID_LCLICRV. Refer section `2.1.1.2 / INS_LCLICAVL_2_LICHDRVL` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
+      "Decsription": "Table /SAPSLL/LCLICAVL is obsolete, use successor /SAPSLL/LICHDRVL.No structural changes between target table and source table. Simply adjustment of the names of the referenced table /SAPSLL/LICHDRVL, for example, field /SAPSLL/LCLICRVL~GUID_LCLICRV. Refer section `2.1.1.2 / INS_LCLICAVL_2_LICHDRVL` of Document: https://help.sap.com/doc/25831a740892478da87d3204dbbaf693/2023.000/en-US/loio49860f614e374155b143261fcb13782c_en.pdf"
     },
     {
       "tadirObject": "TABL",
