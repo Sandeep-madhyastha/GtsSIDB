@@ -2964,6 +2964,24 @@
           "objectKey": "/SAPSLL/BADI_CDOC_EXT_N"
         }
       ]
+    },
+    {
+      "tadirObject": "TABL",
+      "tadirObjName": "ZCCM_TEST",
+      "objectKey": "ZCCM_TEST",
+      "objectType": "TABL",
+      "softwareComponent": "",
+      "applicationComponent": "",
+      "state": "deprecated",
+      "successorClassification": "oneObject",
+      "successors": [
+        {
+          "tadirObject": "TABL",
+          "tadirObjName": "ZCCM_TEST1”,
+          "objectType": "TABL",
+          "objectKey": "ZCCM_TEST1”
+        }
+      ]
     }
   ]
 }
