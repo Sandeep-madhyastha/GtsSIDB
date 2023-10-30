@@ -2975,7 +2975,7 @@
       "successors": [
         {
           "tadirObject": "TABL",
-          "tadirObjName": "ZCCM_TEST1”,
+          "tadirObjName": "ZCCM_TEST1",
           "objectType": "TABL",
           "objectKey": "ZCCM_TEST1”
         }
