@@ -2970,8 +2970,6 @@
       "tadirObjName": "ZCCM_TEST",
       "objectKey": "ZCCM_TEST",
       "objectType": "TABL",
-      "softwareComponent": "",
-      "applicationComponent": "",
       "state": "deprecated",
       "successorClassification": "oneObject",
       "successors": [
