@@ -2980,6 +2980,25 @@
           "objectKey": "ZCCM_TEST1”
         }
       ]
+    },
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"MEWP",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_PO_GETDETAIL",
+     "softwareComponent":"SAPSCORE",
+     "applicationComponent":"MM-PUR-GF",
+     "state":"notToBeReleased",
+     "successorClassification":"oneObject",
+     "successors":
+     [
+      {
+       "tadirObject":"BDEF",
+       "tadirObjName":"I_PURCHASEORDERTP_2",
+       "objectType":"BDEF",
+       "objectKey":"I_PURCHASEORDERTP_2"
+      }
+     ]
     }
   ]
 }
